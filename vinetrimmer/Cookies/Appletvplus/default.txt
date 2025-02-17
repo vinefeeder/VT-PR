@@ -1,0 +1,28 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file! Do not edit.
+
+# Domain	Subdomain	Path	Secure	Expire	Name	Value
+.apple.com	TRUE	/	FALSE	1767446475	itspod	59
+.apple.com	TRUE	/	FALSE	1748270032	media-user-token	AuFaUNQhCqd6LZTyOhDTctxiP+6aDDhs9lPkUU67NSJPI+J4w0caBDTL094KjwUAnvyDFVf6pKMjBYgRR8+a1nwM13WOk8kMzT1Mr0XtNQOJYJU6+CKOTctc4MXOXRy0dZqo60ksB1w3EeOUe+l6P8D8PG7oPxxkD1zY9A7l9k8b1zkQWJcqHk5IFhOlPfi2X7hq5l499lvQiJJy4rRcr1Q73i7VfMjmgkXQ/qqUihrXg/X4AA==
+.apple.com	TRUE	/	FALSE	1764254032	itua	US
+.apple.com	TRUE	/	FALSE	1748270032	pldfltcid	35d9b667b5c144cba92a44c318c4eb51059
+.apple.com	TRUE	/	FALSE	1748270032	pltvcid	4331b34ab50c43568dbef03ed4bf1b76059
+.apple.com	TRUE	/	FALSE	0	geo	US
+.apple.com	TRUE	/	FALSE	1735478447	vrep	CLXs6q9FEgQIBxAAEgQIBhAJEgQIDBAAEgQIAxAAEgQIBRAAEgQIEBAAEgQIDRAAEgQIARAAEgQIBBAAEgQIExAAEgQIEhAAEgQIDhAAEgQIERAAEgQIDxAAEgQIAhAAEgQICBAAEgQIChAAEgkICxDg0oDqtjISBAgJEAA
+.music.apple.com	TRUE	/	TRUE	1748270007	media-user-token	AuFaUNQhCqd6LZTyOhDTctxiP+6aDDhs9lPkUU67NSJPI+J4w0caBDTL094KjwUAnvyDFVf6pKMjBYgRR8+a1nwM13WOk8kMzT1Mr0XtNQOJYJU6+CKOTctc4MXOXRy0dZqo60ksB1w3EeOUe+l6P8D8PG7oPxxkD1zY9A7l9k8b1zkQWJcqHk5IFhOlPfi2X7hq5l499lvQiJJy4rRcr1Q73i7VfMjmgkXQ/qqUihrXg/X4AA==
+.music.apple.com	TRUE	/	FALSE	1764254007	itua	US
+.music.apple.com	TRUE	/	FALSE	1748486007	pltvcid	4331b34ab50c43568dbef03ed4bf1b76059
+.music.apple.com	TRUE	/	FALSE	1748486007	pldfltcid	35d9b667b5c144cba92a44c318c4eb51059
+.music.apple.com	TRUE	/	TRUE	1740494007	mut-refresh	1
+.podcasts.apple.com	TRUE	/	TRUE	1748270008	media-user-token	AuFaUNQhCqd6LZTyOhDTctxiP+6aDDhs9lPkUU67NSJPI+J4w0caBDTL094KjwUAnvyDFVf6pKMjBYgRR8+a1nwM13WOk8kMzT1Mr0XtNQOJYJU6+CKOTctc4MXOXRy0dZqo60ksB1w3EeOUe+l6P8D8PG7oPxxkD1zY9A7l9k8b1zkQWJcqHk5IFhOlPfi2X7hq5l499lvQiJJy4rRcr1Q73i7VfMjmgkXQ/qqUihrXg/X4AA==
+.podcasts.apple.com	TRUE	/	FALSE	1764254008	itua	US
+.podcasts.apple.com	TRUE	/	FALSE	1748486008	pltvcid	4331b34ab50c43568dbef03ed4bf1b76059
+.podcasts.apple.com	TRUE	/	FALSE	1748486008	pldfltcid	35d9b667b5c144cba92a44c318c4eb51059
+.podcasts.apple.com	TRUE	/	TRUE	1740494008	mut-refresh	1
+.tv.apple.com	TRUE	/	TRUE	1748270009	media-user-token	AuFaUNQhCqd6LZTyOhDTctxiP+6aDDhs9lPkUU67NSJPI+J4w0caBDTL094KjwUAnvyDFVf6pKMjBYgRR8+a1nwM13WOk8kMzT1Mr0XtNQOJYJU6+CKOTctc4MXOXRy0dZqo60ksB1w3EeOUe+l6P8D8PG7oPxxkD1zY9A7l9k8b1zkQWJcqHk5IFhOlPfi2X7hq5l499lvQiJJy4rRcr1Q73i7VfMjmgkXQ/qqUihrXg/X4AA==
+.tv.apple.com	TRUE	/	FALSE	1764254009	itua	US
+.tv.apple.com	TRUE	/	FALSE	1748486009	pltvcid	4331b34ab50c43568dbef03ed4bf1b76059
+.tv.apple.com	TRUE	/	FALSE	1748486009	pldfltcid	35d9b667b5c144cba92a44c318c4eb51059
+.tv.apple.com	TRUE	/	TRUE	1740494009	mut-refresh	1
+.tv.apple.com	TRUE	/	TRUE	1748438475	itspod	59

@@ -1,0 +1,17 @@
+2025-01-21 22:50:07 [I] vt : vinetrimmer - Widevine DRM downloader and decrypter
+2025-01-21 22:50:07 [I] vt : [Root Config]     : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\vinetrimmer.yml
+2025-01-21 22:50:07 [I] vt : [Service Configs] : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\Services
+2025-01-21 22:50:07 [I] vt : [Cookies]         : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\Cookies
+2025-01-21 22:50:07 [I] vt : [CDM Devices]     : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\devices
+2025-01-21 22:50:07 [I] vt : [Cache]           : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\Cache
+2025-01-21 22:50:07 [I] vt : [Logs]            : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\Logs
+2025-01-21 22:50:07 [I] vt : [Temp Files]      : B:\decryption\PlayReady-Amazon-Tool-main\Temp
+2025-01-21 22:50:07 [I] vt : [Downloads]       : B:\decryption\PlayReady-Amazon-Tool-main\Downloads
+2025-01-21 22:50:08 [I] dl :  + 1 Local Vault
+2025-01-21 22:50:08 [I] dl :  + 0 Remote Vaults
+2025-01-21 22:50:08 [I] dl :  + Loaded Device: Hisense SmartTV HU50A6100UW (L3000)
+2025-01-21 22:50:08 [D] urllib3.connectionpool : Starting new HTTPS connection (1): tv.apple.com:443
+2025-01-21 22:50:09 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET / HTTP/1.1" 200 99920
+2025-01-21 22:50:11 [I] ATVP : Retrieving Titles
+2025-01-21 22:50:12 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET /api/uts/v3/shows/umc.cmc.71tbyxchxiwotaysuuztm8p54?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 200 4478
+2025-01-21 22:50:12 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET /api/uts/v2/view/show/umc.cmc.71tbyxchxiwotaysuuztm8p54/episodes?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 200 19817

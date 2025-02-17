@@ -1,0 +1,33 @@
+2025-01-21 23:01:58 [I] vt : vinetrimmer - Widevine DRM downloader and decrypter
+2025-01-21 23:01:58 [I] vt : [Root Config]     : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\vinetrimmer.yml
+2025-01-21 23:01:58 [I] vt : [Service Configs] : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\Services
+2025-01-21 23:01:58 [I] vt : [Cookies]         : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\Cookies
+2025-01-21 23:01:58 [I] vt : [CDM Devices]     : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\devices
+2025-01-21 23:01:58 [I] vt : [Cache]           : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\Cache
+2025-01-21 23:01:58 [I] vt : [Logs]            : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\Logs
+2025-01-21 23:01:58 [I] vt : [Temp Files]      : B:\decryption\PlayReady-Amazon-Tool-main\Temp
+2025-01-21 23:01:58 [I] vt : [Downloads]       : B:\decryption\PlayReady-Amazon-Tool-main\Downloads
+2025-01-21 23:01:58 [I] dl :  + 1 Local Vault
+2025-01-21 23:01:58 [I] dl :  + 0 Remote Vaults
+2025-01-21 23:01:58 [I] dl :  + Loaded Device: Hisense SmartTV HU50A6100UW (L3000)
+2025-01-21 23:01:58 [I] ATVP :  - Setting Video codec to H265 to get UHD
+2025-01-21 23:01:58 [D] urllib3.connectionpool : Starting new HTTPS connection (1): tv.apple.com:443
+2025-01-21 23:02:00 [D] urllib3.util.retry : Incremented Retry for (url='/'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+2025-01-21 23:02:00 [W] urllib3.connectionpool : Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000000059D4EB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))': /
+2025-01-21 23:02:00 [D] urllib3.connectionpool : Starting new HTTPS connection (2): tv.apple.com:443
+2025-01-21 23:02:02 [D] urllib3.util.retry : Incremented Retry for (url='/'): Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-21 23:02:04 [W] urllib3.connectionpool : Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000000059D5480>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))': /
+2025-01-21 23:02:04 [D] urllib3.connectionpool : Starting new HTTPS connection (3): tv.apple.com:443
+2025-01-21 23:02:06 [D] urllib3.util.retry : Incremented Retry for (url='/'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-01-21 23:02:10 [W] urllib3.connectionpool : Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000000059D5660>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))': /
+2025-01-21 23:02:10 [D] urllib3.connectionpool : Starting new HTTPS connection (4): tv.apple.com:443
+2025-01-21 23:02:12 [D] urllib3.util.retry : Incremented Retry for (url='/'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2025-01-21 23:02:20 [W] urllib3.connectionpool : Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000000059D57B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))': /
+2025-01-21 23:02:20 [D] urllib3.connectionpool : Starting new HTTPS connection (5): tv.apple.com:443
+2025-01-21 23:02:24 [D] urllib3.util.retry : Incremented Retry for (url='/'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-01-21 23:02:40 [W] urllib3.connectionpool : Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))': /
+2025-01-21 23:02:40 [D] urllib3.connectionpool : Starting new HTTPS connection (6): tv.apple.com:443
+2025-01-21 23:02:44 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET / HTTP/1.1" 200 None
+2025-01-21 23:02:45 [I] ATVP : Retrieving Titles
+2025-01-21 23:02:46 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET /api/uts/v3/shows/umc.cmc.4uzbqvarwjrbkqz92796oelqj?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 200 4267
+2025-01-21 23:02:46 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET /api/uts/v2/view/show/umc.cmc.4uzbqvarwjrbkqz92796oelqj/episodes?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 200 2572

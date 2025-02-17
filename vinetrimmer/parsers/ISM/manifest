@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SmoothStreamingMedia MajorVersion="2" MinorVersion="0" TimeScale="10000000" Duration="35461440000" >
+    <StreamIndex Name="video" Type="video" Chunks="1773" QualityLevels="13" MaxWidth="3840" MaxHeight="2160" DisplayWidth="3840" DisplayHeight="2160" Url="QualityLevels({bitrate})/Fragments(video={start time})">
+        <QualityLevel Index="0" Bitrate="15000000" FourCC="hvc1" MaxWidth="3840" MaxHeight="2160" CodecPrivateData="0000000140010C01FFFF01600000030090000003000003009695980900000001420101016000000300900000030000030096A001E020021C596566924C2F016A02020208000003000800000300C840000000014401C172B66240"/>
+        <QualityLevel Index="1" Bitrate="10000000" FourCC="hvc1" MaxWidth="3840" MaxHeight="2160" CodecPrivateData="0000000140010C01FFFF01600000030090000003000003009695980900000001420101016000000300900000030000030096A001E020021C596566924C2F016A02020208000003000800000300C840000000014401C172B66240"/>
+        <QualityLevel Index="2" Bitrate="5000000" FourCC="hvc1" MaxWidth="1920" MaxHeight="1080" CodecPrivateData="0000000140010C01FFFF01600000030090000003000003007895980900000001420101016000000300900000030000030078A003C08010E596566924CAF016A020202080000003008000000C84000000014401C172B66240"/>
+        <QualityLevel Index="3" Bitrate="3500000" FourCC="hvc1" MaxWidth="1920" MaxHeight="1080" CodecPrivateData="0000000140010C01FFFF01600000030090000003000003007895980900000001420101016000000300900000030000030078A003C08010E596566924C2F016A020202080000003008000000C84000000014401C172B66240"/>
+        <QualityLevel Index="4" Bitrate="3000000" FourCC="hvc1" MaxWidth="1280" MaxHeight="720" CodecPrivateData="0000000140010C01FFFF01600000030090000003000003005D9598090000000142010101600000030090000003000003005DA00280802D165959A4932BC05A808080820000030002000003003210000000014401C172B66240"/>
+        <QualityLevel Index="5" Bitrate="2000000" FourCC="hvc1" MaxWidth="1280" MaxHeight="720" CodecPrivateData="0000000140010C01FFFF01600000030090000003000003005D9598090000000142010101600000030090000003000003005DA00280802D165959A4930BC05A808080820000030002000003003210000000014401C172B66240"/>
+        <QualityLevel Index="6" Bitrate="1800000" FourCC="hvc1" MaxWidth="960" MaxHeight="540" CodecPrivateData="0000000140010C01FFFF01600000030090000003000003005A9598090000000142010101600000030090000003000003005AA0078200887DE5959A4932BC05A80808082000000300200000030321000000014401C172B66240"/>
+        <QualityLevel Index="7" Bitrate="1700000" FourCC="hvc1" MaxWidth="704" MaxHeight="396" CodecPrivateData="0000000140010C01FFFF01600000030090000003000003005A9598090000000142010101600000030090000003000003005AA005820191F796566924CAF016A020202080000003008000000C84000000014401C172B66240"/>
+        <QualityLevel Index="8" Bitrate="1000000" FourCC="hvc1" MaxWidth="704" MaxHeight="396" CodecPrivateData="0000000140010C01FFFF01600000030090000003000003005A9598090000000142010101600000030090000003000003005AA005820191F796566924CAF016A020202080000003008000000C84000000014401C172B66240"/>
+        <QualityLevel Index="9" Bitrate="650000" FourCC="hvc1" MaxWidth="704" MaxHeight="396" CodecPrivateData="0000000140010C01FFFF01600000030090000003000003005A9598090000000142010101600000030090000003000003005AA005820191F796566924CAF016A020202080000003008000000C84000000014401C172B66240"/>
+        <QualityLevel Index="10" Bitrate="400000" FourCC="hvc1" MaxWidth="704" MaxHeight="396" CodecPrivateData="0000000140010C01FFFF01600000030090000003000003005A9598090000000142010101600000030090000003000003005AA005820191F796566924CAF016A020202080000003008000000C84000000014401C172B66240"/>
+        <QualityLevel Index="11" Bitrate="250000" FourCC="hvc1" MaxWidth="512" MaxHeight="288" CodecPrivateData="0000000140010C01FFFF01600000030090000003000003003F9598090000000142010101600000030090000003000003003FA00402012165959A4932BC05A80808082000000300200000030321000000014401C172B66240"/>
+        <QualityLevel Index="12" Bitrate="150000" FourCC="hvc1" MaxWidth="512" MaxHeight="288" CodecPrivateData="0000000140010C01FFFF01600000030090000003000003003F9598090000000142010101600000030090000003000003003FA00402012165959A4932BC05A80808082000000300200000030321000000014401C172B66240"/>
+    </StreamIndex>
+    <StreamIndex Name="en-us_boosteddialoghigh_0_audio_EC-3_192k" Type="audio" Chunks="1773" QualityLevels="1" Url="QualityLevels({bitrate})/Fragments(en-us_boosteddialoghigh_0_audio_EC-3_192k={start time})" Language="eng" AudioTrackId="en-us_boosteddialoghigh_0" AudioTrackIndex="0" AudioTrackSubtype="boosteddialoghigh">
+        <QualityLevel Index="0" Bitrate="192000" FourCC="EC-3" CodecPrivateData="00063F000000AF87FBA7022DFB42A4D405CD93843BDD0600200F00" AudioTag="65534" Channels="6" SamplingRate="48000" BitsPerSample="16" PacketSize="768"/>
+    </StreamIndex>
+    <StreamIndex Name="en-us_boosteddialoglow_0_audio_EC-3_192k" Type="audio" Chunks="1773" QualityLevels="1" Url="QualityLevels({bitrate})/Fragments(en-us_boosteddialoglow_0_audio_EC-3_192k={start time})" Language="eng" AudioTrackId="en-us_boosteddialoglow_0" AudioTrackIndex="0" AudioTrackSubtype="boosteddialoglow">
+        <QualityLevel Index="0" Bitrate="192000" FourCC="EC-3" CodecPrivateData="00063F000000AF87FBA7022DFB42A4D405CD93843BDD0600200F00" AudioTag="65534" Channels="6" SamplingRate="48000" BitsPerSample="16" PacketSize="768"/>
+    </StreamIndex>
+    <StreamIndex Name="en-us_boosteddialogmedium_0_audio_EC-3_192k" Type="audio" Chunks="1773" QualityLevels="1" Url="QualityLevels({bitrate})/Fragments(en-us_boosteddialogmedium_0_audio_EC-3_192k={start time})" Language="eng" AudioTrackId="en-us_boosteddialogmedium_0" AudioTrackIndex="0" AudioTrackSubtype="boosteddialogmedium">
+        <QualityLevel Index="0" Bitrate="192000" FourCC="EC-3" CodecPrivateData="00063F000000AF87FBA7022DFB42A4D405CD93843BDD0600200F00" AudioTag="65534" Channels="6" SamplingRate="48000" BitsPerSample="16" PacketSize="768"/>
+    </StreamIndex>
+    <StreamIndex Name="en-us_dialog_0_audio_EC-3_192k" Type="audio" Chunks="1773" QualityLevels="1" Url="QualityLevels({bitrate})/Fragments(en-us_dialog_0_audio_EC-3_192k={start time})" Language="eng" AudioTrackId="en-us_dialog_0" AudioTrackIndex="0" AudioTrackSubtype="dialog">
+        <QualityLevel Index="0" Bitrate="192000" FourCC="EC-3" CodecPrivateData="00063F000000AF87FBA7022DFB42A4D405CD93843BDD0600200F00" AudioTag="65534" Channels="6" SamplingRate="48000" BitsPerSample="16" PacketSize="768"/>
+    </StreamIndex>
+    <StreamIndex Name="en-us_boosteddialoghigh_0_audio_AACH_64k" Type="audio" Chunks="1773" QualityLevels="1" Url="QualityLevels({bitrate})/Fragments(en-us_boosteddialoghigh_0_audio_AACH_64k={start time})" Language="eng" AudioTrackId="en-us_boosteddialoghigh_0" AudioTrackIndex="0" AudioTrackSubtype="boosteddialoghigh">
+        <QualityLevel Index="0" Bitrate="64000" FourCC="AACH" CodecPrivateData="131056E598" AudioTag="255" Channels="2" SamplingRate="24000" BitsPerSample="16" PacketSize="4"/>
+    </StreamIndex>
+    <StreamIndex Name="en-us_boosteddialoglow_0_audio_AACH_64k" Type="audio" Chunks="1773" QualityLevels="1" Url="QualityLevels({bitrate})/Fragments(en-us_boosteddialoglow_0_audio_AACH_64k={start time})" Language="eng" AudioTrackId="en-us_boosteddialoglow_0" AudioTrackIndex="0" AudioTrackSubtype="boosteddialoglow">
+        <QualityLevel Index="0" Bitrate="64000" FourCC="AACH" CodecPrivateData="131056E598" AudioTag="255" Channels="2" SamplingRate="24000" BitsPerSample="16" PacketSize="4"/>
+    </StreamIndex>
+    <StreamIndex Name="en-us_boosteddialogmedium_0_audio_AACH_64k" Type="audio" Chunks="1773" QualityLevels="1" Url="QualityLevels({bitrate})/Fragments(en-us_boosteddialogmedium_0_audio_AACH_64k={start time})" Language="eng" AudioTrackId="en-us_boosteddialogmedium_0" AudioTrackIndex="0" AudioTrackSubtype="boosteddialogmedium">
+        <QualityLevel Index="0" Bitrate="64000" FourCC="AACH" CodecPrivateData="131056E598" AudioTag="255" Channels="2" SamplingRate="24000" BitsPerSample="16" PacketSize="4"/>
+    </StreamIndex>
+    <StreamIndex Name="en-us_descriptive_0_audio_AACH_64k" Type="audio" Chunks="1773" QualityLevels="1" Url="QualityLevels({bitrate})/Fragments(en-us_descriptive_0_audio_AACH_64k={start time})" Language="eng" AudioTrackId="en-us_descriptive_0" AudioTrackIndex="0" AudioTrackSubtype="descriptive">
+        <QualityLevel Index="0" Bitrate="64000" FourCC="AACH" CodecPrivateData="131056E598" AudioTag="255" Channels="2" SamplingRate="24000" BitsPerSample="16" PacketSize="4"/>
+    </StreamIndex>
+    <StreamIndex Name="en-us_dialog_0_audio_AACH_64k" Type="audio" Chunks="1773" QualityLevels="1" Url="QualityLevels({bitrate})/Fragments(en-us_dialog_0_audio_AACH_64k={start time})" Language="eng" AudioTrackId="en-us_dialog_0" AudioTrackIndex="0" AudioTrackSubtype="dialog">
+        <QualityLevel Index="0" Bitrate="64000" FourCC="AACH" CodecPrivateData="131056E598" AudioTag="255" Channels="2" SamplingRate="24000" BitsPerSample="16" PacketSize="4"/>
+    </StreamIndex>
+    <StreamIndex Name="en-us_boosteddialoghigh_0_audio_AACH_32k" Type="audio" Chunks="1773" QualityLevels="1" Url="QualityLevels({bitrate})/Fragments(en-us_boosteddialoghigh_0_audio_AACH_32k={start time})" Language="eng" AudioTrackId="en-us_boosteddialoghigh_0" AudioTrackIndex="0" AudioTrackSubtype="boosteddialoghigh">
+        <QualityLevel Index="0" Bitrate="32000" FourCC="AACH" CodecPrivateData="131056E598" AudioTag="255" Channels="2" SamplingRate="24000" BitsPerSample="16" PacketSize="4"/>
+    </StreamIndex>
+    <StreamIndex Name="en-us_boosteddialoglow_0_audio_AACH_32k" Type="audio" Chunks="1773" QualityLevels="1" Url="QualityLevels({bitrate})/Fragments(en-us_boosteddialoglow_0_audio_AACH_32k={start time})" Language="eng" AudioTrackId="en-us_boosteddialoglow_0" AudioTrackIndex="0" AudioTrackSubtype="boosteddialoglow">
+        <QualityLevel Index="0" Bitrate="32000" FourCC="AACH" CodecPrivateData="131056E598" AudioTag="255" Channels="2" SamplingRate="24000" BitsPerSample="16" PacketSize="4"/>
+    </StreamIndex>
+    <StreamIndex Name="en-us_boosteddialogmedium_0_audio_AACH_32k" Type="audio" Chunks="1773" QualityLevels="1" Url="QualityLevels({bitrate})/Fragments(en-us_boosteddialogmedium_0_audio_AACH_32k={start time})" Language="eng" AudioTrackId="en-us_boosteddialogmedium_0" AudioTrackIndex="0" AudioTrackSubtype="boosteddialogmedium">
+        <QualityLevel Index="0" Bitrate="32000" FourCC="AACH" CodecPrivateData="131056E598" AudioTag="255" Channels="2" SamplingRate="24000" BitsPerSample="16" PacketSize="4"/>
+    </StreamIndex>
+    <StreamIndex Name="en-us_descriptive_0_audio_AACH_32k" Type="audio" Chunks="1773" QualityLevels="1" Url="QualityLevels({bitrate})/Fragments(en-us_descriptive_0_audio_AACH_32k={start time})" Language="eng" AudioTrackId="en-us_descriptive_0" AudioTrackIndex="0" AudioTrackSubtype="descriptive">
+        <QualityLevel Index="0" Bitrate="32000" FourCC="AACH" CodecPrivateData="131056E598" AudioTag="255" Channels="2" SamplingRate="24000" BitsPerSample="16" PacketSize="4"/>
+    </StreamIndex>
+    <StreamIndex Name="en-us_dialog_0_audio_AACH_32k" Type="audio" Chunks="1773" QualityLevels="1" Url="QualityLevels({bitrate})/Fragments(en-us_dialog_0_audio_AACH_32k={start time})" Language="eng" AudioTrackId="en-us_dialog_0" AudioTrackIndex="0" AudioTrackSubtype="dialog">
+        <QualityLevel Index="0" Bitrate="32000" FourCC="AACH" CodecPrivateData="131056E598" AudioTag="255" Channels="2" SamplingRate="24000" BitsPerSample="16" PacketSize="4"/>
+    </StreamIndex>
+    <StreamIndex Name="en-us_boosteddialoghigh_0_audio_AACL_128k" Type="audio" Chunks="1773" QualityLevels="1" Url="QualityLevels({bitrate})/Fragments(en-us_boosteddialoghigh_0_audio_AACL_128k={start time})" Language="eng" AudioTrackId="en-us_boosteddialoghigh_0" AudioTrackIndex="0" AudioTrackSubtype="boosteddialoghigh">
+        <QualityLevel Index="0" Bitrate="128000" FourCC="AACL" CodecPrivateData="1190" AudioTag="255" Channels="2" SamplingRate="48000" BitsPerSample="16" PacketSize="4"/>
+    </StreamIndex>
+    <StreamIndex Name="en-us_boosteddialoglow_0_audio_AACL_128k" Type="audio" Chunks="1773" QualityLevels="1" Url="QualityLevels({bitrate})/Fragments(en-us_boosteddialoglow_0_audio_AACL_128k={start time})" Language="eng" AudioTrackId="en-us_boosteddialoglow_0" AudioTrackIndex="0" AudioTrackSubtype="boosteddialoglow">
+        <QualityLevel Index="0" Bitrate="128000" FourCC="AACL" CodecPrivateData="1190" AudioTag="255" Channels="2" SamplingRate="48000" BitsPerSample="16" PacketSize="4"/>
+    </StreamIndex>
+    <StreamIndex Name="en-us_boosteddialogmedium_0_audio_AACL_128k" Type="audio" Chunks="1773" QualityLevels="1" Url="QualityLevels({bitrate})/Fragments(en-us_boosteddialogmedium_0_audio_AACL_128k={start time})" Language="eng" AudioTrackId="en-us_boosteddialogmedium_0" AudioTrackIndex="0" AudioTrackSubtype="boosteddialogmedium">
+        <QualityLevel Index="0" Bitrate="128000" FourCC="AACL" CodecPrivateData="1190" AudioTag="255" Channels="2" SamplingRate="48000" BitsPerSample="16" PacketSize="4"/>
+    </StreamIndex>
+    <StreamIndex Name="en-us_descriptive_0_audio_AACL_128k" Type="audio" Chunks="1773" QualityLevels="1" Url="QualityLevels({bitrate})/Fragments(en-us_descriptive_0_audio_AACL_128k={start time})" Language="eng" AudioTrackId="en-us_descriptive_0" AudioTrackIndex="0" AudioTrackSubtype="descriptive">
+        <QualityLevel Index="0" Bitrate="128000" FourCC="AACL" CodecPrivateData="1190" AudioTag="255" Channels="2" SamplingRate="48000" BitsPerSample="16" PacketSize="4"/>
+    </StreamIndex>
+    <StreamIndex Name="en-us_dialog_0_audio_AACL_128k" Type="audio" Chunks="1773" QualityLevels="1" Url="QualityLevels({bitrate})/Fragments(en-us_dialog_0_audio_AACL_128k={start time})" Language="eng" AudioTrackId="en-us_dialog_0" AudioTrackIndex="0" AudioTrackSubtype="dialog">
+        <QualityLevel Index="0" Bitrate="128000" FourCC="AACL" CodecPrivateData="1190" AudioTag="255" Channels="2" SamplingRate="48000" BitsPerSample="16" PacketSize="4"/>
+    </StreamIndex>
+    <Protection>
+        <ProtectionHeader SystemID="9A04F079-9840-4286-AB92-E65BE0885F95">EAMAAAEAAQAGAzwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADAALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsARQBZAEwARQBOAD4AMQA2ADwALwBLAEUAWQBMAEUATgA+ADwAQQBMAEcASQBEAD4AQQBFAFMAQwBUAFIAPAAvAEEATABHAEkARAA+ADwALwBQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAD4AbgB2AFAAQwBuAHIAZAA2AFMANABPAFAAYwBaAGcAZgBCACsAZABRAFAAdwA9AD0APAAvAEsASQBEAD4APABDAEgARQBDAEsAUwBVAE0APgBpAGwAcAB2AEgARQBoAGoAaABwAFEAPQA8AC8AQwBIAEUAQwBLAFMAVQBNAD4APABMAEEAXwBVAFIATAA+AGgAdAB0AHAAcwA6AC8ALwBwAHIAbABzAC4AYQB0AHYALQBwAHMALgBhAG0AYQB6AG8AbgAuAGMAbwBtAC8AYwBkAHAAPAAvAEwAQQBfAFUAUgBMAD4APABDAFUAUwBUAE8ATQBBAFQAVABSAEkAQgBVAFQARQBTAD4APABJAEkAUwBfAEQAUgBNAF8AVgBFAFIAUwBJAE8ATgA+ADcALgAxAC4AMQA1ADYANQAuADQAPAAvAEkASQBTAF8ARABSAE0AXwBWAEUAUgBTAEkATwBOAD4APAAvAEMAVQBTAFQATwBNAEEAVABUAFIASQBCAFUAVABFAFMAPgA8AC8ARABBAFQAQQA+ADwALwBXAFIATQBIAEUAQQBEAEUAUgA+AA==</ProtectionHeader>
+    </Protection>
+</SmoothStreamingMedia>

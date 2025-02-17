@@ -1,0 +1,306 @@
+2025-01-22 07:19:39 [I] vt : vinetrimmer - Widevine DRM downloader and decrypter
+2025-01-22 07:19:39 [I] vt : [Root Config]     : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\vinetrimmer.yml
+2025-01-22 07:19:39 [I] vt : [Service Configs] : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\Services
+2025-01-22 07:19:39 [I] vt : [Cookies]         : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\Cookies
+2025-01-22 07:19:39 [I] vt : [CDM Devices]     : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\devices
+2025-01-22 07:19:39 [I] vt : [Cache]           : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\Cache
+2025-01-22 07:19:39 [I] vt : [Logs]            : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\Logs
+2025-01-22 07:19:39 [I] vt : [Temp Files]      : B:\decryption\PlayReady-Amazon-Tool-main\Temp
+2025-01-22 07:19:39 [I] vt : [Downloads]       : B:\decryption\PlayReady-Amazon-Tool-main\Downloads
+2025-01-22 07:19:39 [I] dl :  + 1 Local Vault
+2025-01-22 07:19:39 [I] dl :  + 0 Remote Vaults
+2025-01-22 07:19:39 [I] dl :  + Loaded Device: Hisense SmartTV HU50A6100UW (L3000)
+2025-01-22 07:19:39 [I] ATVP :  - Setting Video codec to H265 to get UHD
+2025-01-22 07:19:39 [D] urllib3.connectionpool : Starting new HTTPS connection (1): tv.apple.com:443
+2025-01-22 07:19:43 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET / HTTP/1.1" 200 None
+2025-01-22 07:19:44 [I] ATVP : Retrieving Titles
+2025-01-22 07:19:45 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET /api/uts/v3/shows/umc.cmc.1srk2goyh2q2zdxcx605w8vtx?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 200 7502
+2025-01-22 07:19:45 [D] ATVP : {'backgroundVideo': {'assets': {'assetAdamId': '1779986588', 'fpsCertificateUrl': 'https://s.mzstatic.com/skdtool_2021_certbundle.bin', 'fpsKeyServerQueryParameters': {'adamId': '1779986588', 'isExternal': True, 'svcId': 'tvs.vds.4105'}, 'fpsKeyServerUrl': 'https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/wa/fpsRequest', 'fpsNonceServerUrl': 'https://play.itunes.apple.com/WebObjects/MZPlay.woa/wa/checkInNonceRequest', 'hlsUrl': 'https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1779986588&isExternal=true&brandId=tvs.sbd.4000&id=982684728&l=en-US&aec=UHD', 'programId': '982684728'}, 'duration': 156, 'id': 'umc.cmr.atvp.ex.2ifq81zphek00erj8ssgop54b', 'images': {'contentImage': {'height': 2160, 'isP3': False, 'joeColor': 'b:rgb(200,215,226) p:rgb(2,13,26) s:rgb(7,17,27) t:rgb(42,53,66) q:rgb(46,56,67)', 'supportsLayeredImage': False, 'url': 'https://is1-ssl.mzstatic.com/image/thumb/tTG7v0-mSFQ0eAWhOPSxLA/{w}x{h}.{f}', 'width': 3840}}, 'mediaMetrics': {'MediaIdentifier': 'a=1779986588:p=982684728:s=tvs.vds.4105:cid=umc.cmc.1gmx6fvr3vvc8pt9wg70a2lut:rid=umc.cmr.atvp.ex.2ifq81zphek00erj8ssgop54b:e=trailer', 'iTunesServiceMonitoringKey': True}, 'title': 'Welcome Back: Season 2'}, 'caption': 'New Episodes Fridays', 'commonSenseMedia': {'contentInfo': [{'label': 'Positive Messages', 'rating': 1}, {'label': 'Positive Role Models', 'rating': 2}, {'label': 'Violence', 'rating': 4}, {'label': 'Sex', 'rating': 0}, {'label': 'Language', 'rating': 4}, {'label': 'Consumerism', 'rating': 1}, {'label': 'Drinking, Drugs & Smoking', 'rating': 1}], 'oneLiner': 'Dystopian tale of extreme work-life balance is scary smart.', 'recommendedAge': 15}, 'countriesOfOrigin': [{'countryCode': 'US', 'displayName': 'United States'}], 'description': 'In this Emmy® winner from director Ben Stiller, Mark leads a team of office workers whose memories have been surgically divided between their work and personal lives. They begin a journey to discover the truth about their jobs—and themselves.', 'genres': [{'id': 'umc.gnr.tv.thriller', 'name': 'Thriller', 'type': 'Genre', 'url': 'https://tv.apple.com/us/genre/thriller/umc.gnr.tv.thriller'}], 'id': 'umc.cmc.1srk2goyh2q2zdxcx605w8vtx', 'images': {'contentImage': {'height': 3240, 'isP3': False, 'joeColor': 'b:rgb(0,1,15) p:rgb(196,222,233) s:rgb(145,194,205) t:rgb(156,178,189) q:rgb(116,155,167)', 'supportsLayeredImage': False, 'url': 'https://is1-ssl.mzstatic.com/image/thumb/sWbO9RKGr81f6-iTFF9d4g/{w}x{h}ta.{f}', 'width': 4320}, 'contentImageTall': {'height': 3636, 'joeColor': 'b:rgb(0,3,21) p:rgb(175,220,229) s:rgb(130,186,208) t:rgb(140,177,188) q:rgb(104,149,171)', 'supportsLayeredImage': False, 'url': 'https://is1-ssl.mzstatic.com/image/thumb/CoRdiN73bJvhcVe9CEHaWw/{w}x{h}tc.{f}', 'width': 1680}, 'contentLogo': {'height': 1176, 'isP3': False, 'joeColor': 'b:rgb(255,255,255) p:rgb(12,12,12) s:rgb(25,25,25) t:rgb(61,61,61) q:rgb(71,71,71)', 'supportsLayeredImage': False, 'url': 'https://is1-ssl.mzstatic.com/image/thumb/EoWjlf9EmMs5QpTaeSw0lQ/{w}x{h}.{f}', 'width': 7095}, 'posterArt': {'height': 2160, 'isP3': False, 'joeColor': 'b:rgb(109,150,173) p:rgb(14,15,18) s:rgb(10,26,37) t:rgb(33,42,49) q:rgb(30,51,64)', 'supportsLayeredImage': False, 'url': 'https://is1-ssl.mzstatic.com/image/thumb/EUeDAPovZrBtOcrP2Da5Lw/{w}x{h}.{f}', 'width': 3840}}, 'isAppleOriginal': True, 'originalSpokenLanguages': [{'displayName': 'English', 'locale': 'en'}], 'rating': {'displayName': 'TV-MA', 'name': 'TV_MA', 'system': 'us_tv', 'systemType': 'tv', 'value': 600}, 'releaseDate': 1645142400000, 'rolesSummary': {'cast': ['Adam Scott', 'Britt Lower', 'Patricia Arquette']}, 'seoDescription': 'Watch the thriller Severance, winner of two Emmy® awards starring Adam Scott, Britt Lower, and Patricia Arquette. Streaming on Apple TV+.', 'seoTitle': 'Watch Severance - Show - Apple TV+', 'title': 'Severance', 'type': 'Show', 'url': 'https://tv.apple.com/us/show/severance/umc.cmc.1srk2goyh2q2zdxcx605w8vtx'}
+2025-01-22 07:19:45 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET /api/uts/v2/view/show/umc.cmc.1srk2goyh2q2zdxcx605w8vtx/episodes?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 200 2957
+2025-01-22 07:19:45 [I] Titles : Title: Severance
+2025-01-22 07:19:45 [I] Titles : Total Episodes: 11
+2025-01-22 07:19:45 [I] Titles : By Season: 1 (9), 2 (2)
+2025-01-22 07:19:45 [I] ATVP : Getting tracks for Severance S01E01 - Good News About Hell [umc.cmc.1srk2goyh2q2zdxcx605w8vtx]
+2025-01-22 07:19:46 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET /api/uts/v2/view/product/umc.cmc.s80mx1ic96pu6ewupz8pfasf/personalized?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 200 2296
+2025-01-22 07:19:46 [D] ATVP : {'svcId': 'tvs.vds.4105', 'isExternal': True, 'adamId': '1600701943'}
+2025-01-22 07:19:46 [D] ATVP : https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1600701943&isExternal=true&brandId=tvs.sbd.4000&id=514998478&l=en-US&aec=UHD
+2025-01-22 07:19:46 [D] urllib3.connectionpool : Starting new HTTPS connection (1): play-edge.itunes.apple.com:443
+2025-01-22 07:19:47 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1600701943&isExternal=true&brandId=tvs.sbd.4000&id=514998478&l=en-US&aec=UHD HTTP/1.1" 200 30711
+2025-01-22 07:19:47 [D] charset_normalizer : Encoding detection: utf_8 is most likely the one.
+2025-01-22 07:19:47 [I] ATVP : > Selected Tracks:
+2025-01-22 07:19:47 [I] Tracks : 1 Video Track:
+2025-01-22 07:19:47 [I] Tracks : ├─ VID | [H.265, SDR] | 3840x1606 @ 21101 kb/s, 23.976 FPS
+2025-01-22 07:19:47 [I] Tracks : 1 Audio Track:
+2025-01-22 07:19:47 [I] Tracks : ├─ AUD | [E-AC3] | [atmos, atmos] | 16/JOC | 768 kb/s | en | [Original]
+2025-01-22 07:19:47 [I] Tracks : 1 Text Track:
+2025-01-22 07:19:47 [I] Tracks : ├─ SUB | [VTT] | en | [Original]
+2025-01-22 07:19:47 [D] urllib3.connectionpool : Starting new HTTPS connection (1): play-edge.itunes.apple.com:443
+2025-01-22 07:19:49 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&g=598&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1600701943&a=1600701943+1605935301+1605487986+1605487789+1605487867+1605487773+1605487617+1605487775+1605487825&p=514998478+514317383+514306540+514198318+514307077+514197512+514305347+514197742+514306705&st=2096062411+2090377082+2090282388+2089449963+2090288397+2089446581+2090270338+2089446924+2090284046 HTTP/1.1" 200 5864
+2025-01-22 07:19:49 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 07:19:49 [I] ATVP :  + PSSH: vgEAAAEAAQC0ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADMALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAFMAPgA8AEsASQBEACAAQQBMAEcASQBEAD0AIgBBAEUAUwBDAEIAQwAiACAAVgBBAEwAVQBFAD0AIgBBAEEAQQBBAEEATABJAGUAegBrAEIAagBNAGkAQQBnAEkAQwBBAGcASQBBAD0APQAiAD4APAAvAEsASQBEAD4APAAvAEsASQBEAFMAPgA8AC8AUABSAE8AVABFAEMAVABJAE4ARgBPAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=
+2025-01-22 07:19:49 [I] ATVP :  + KID: 000000001eb240ce6332202020202020
+2025-01-22 07:19:49 [I] ATVP : Decrypting...
+2025-01-22 07:19:49 [I] ATVP :  + KEY: ecfa7156261aa5c5e8d3608a51020c04 (From Local LOCAL Key Vault)
+2025-01-22 07:19:49 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&g=2768&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1600701943&a=1600701943+1605935301+1605487986+1605487789+1605487867+1605487773+1605487617+1605487775+1605487825&p=514998478+514317383+514306540+514198318+514307077+514197512+514305347+514197742+514306705&st=2096054351+2090377238+2090282400+2089450438+2090288604+2089447105+2090270422+2089447097+2090284135 HTTP/1.1" 200 2581
+2025-01-22 07:19:49 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 07:19:49 [I] ATVP :  + PSSH: vgEAAAEAAQC0ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADMALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAFMAPgA8AEsASQBEACAAQQBMAEcASQBEAD0AIgBBAEUAUwBDAEIAQwAiACAAVgBBAEwAVQBFAD0AIgBBAEEAQQBBAEEATABJAGUAegBrAEIAagBOAGkAQQBnAEkAQwBBAGcASQBBAD0APQAiAD4APAAvAEsASQBEAD4APAAvAEsASQBEAFMAPgA8AC8AUABSAE8AVABFAEMAVABJAE4ARgBPAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=
+2025-01-22 07:19:49 [I] ATVP :  + KID: 000000001eb240ce6336202020202020
+2025-01-22 07:19:49 [I] ATVP : Decrypting...
+2025-01-22 07:19:49 [I] ATVP :  + KEY: 43a0ad02df8df4acfcc9a16f3a9a7025 (From Local LOCAL Key Vault)
+2025-01-22 07:19:49 [I] ATVP : Getting tracks for Severance S01E02 - Half Loop [umc.cmc.1srk2goyh2q2zdxcx605w8vtx]
+2025-01-22 07:19:50 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET /api/uts/v2/view/product/umc.cmc.23qox5n6larygqgg6u74fvyj/personalized?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 200 2287
+2025-01-22 07:19:50 [D] ATVP : {'svcId': 'tvs.vds.4105', 'isExternal': True, 'adamId': '1604743187'}
+2025-01-22 07:19:50 [D] ATVP : https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1604743187&isExternal=true&brandId=tvs.sbd.4000&id=962377097&l=en-US&aec=UHD
+2025-01-22 07:19:50 [D] urllib3.connectionpool : Starting new HTTPS connection (1): play-edge.itunes.apple.com:443
+2025-01-22 07:19:51 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1604743187&isExternal=true&brandId=tvs.sbd.4000&id=962377097&l=en-US&aec=UHD HTTP/1.1" 200 32240
+2025-01-22 07:19:51 [D] charset_normalizer : Encoding detection: utf_8 is most likely the one.
+2025-01-22 07:19:51 [W] Tracks :  - Found and skipped 2 duplicate tracks
+2025-01-22 07:19:51 [I] ATVP : > Selected Tracks:
+2025-01-22 07:19:51 [I] Tracks : 1 Video Track:
+2025-01-22 07:19:51 [I] Tracks : ├─ VID | [H.265, SDR] | 3840x1606 @ 21130 kb/s, 23.976 FPS
+2025-01-22 07:19:51 [I] Tracks : 1 Audio Track:
+2025-01-22 07:19:51 [I] Tracks : ├─ AUD | [E-AC3] | [atmos, atmos] | 16/JOC | 768 kb/s | en | [Original]
+2025-01-22 07:19:51 [I] Tracks : 1 Text Track:
+2025-01-22 07:19:51 [I] Tracks : ├─ SUB | [VTT] | en | [Original]
+2025-01-22 07:19:52 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&g=598&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1604743187&a=1607419195+1604743187+1605492703+1605492737+1607265642+1605492787+1605492788+1605492684+1605492704+1605561782&p=514490126+962377097+514306595+514199336+514227660+514198649+514308194+514456488+514198930+514202382&st=2092004276+4424606146+2090281802+2089456623+2089645259+2089454133+2090294912+2091727193+2089453086+2089472558 HTTP/1.1" 200 9509
+2025-01-22 07:19:52 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 07:19:52 [I] ATVP :  + PSSH: vgEAAAEAAQC0ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADMALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAFMAPgA8AEsASQBEACAAQQBMAEcASQBEAD0AIgBBAEUAUwBDAEIAQwAiACAAVgBBAEwAVQBFAD0AIgBBAEEAQQBBAEEARgB3ADUAaQBiAFYAagBNAGkAQQBnAEkAQwBBAGcASQBBAD0APQAiAD4APAAvAEsASQBEAD4APAAvAEsASQBEAFMAPgA8AC8AUABSAE8AVABFAEMAVABJAE4ARgBPAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=
+2025-01-22 07:19:52 [I] ATVP :  + KID: 00000000395cb5896332202020202020
+2025-01-22 07:19:52 [I] ATVP : Decrypting...
+2025-01-22 07:19:52 [I] ATVP :  + KEY: 3f88ac8ce8ab561e929b73c485498d0c (From Local LOCAL Key Vault)
+2025-01-22 07:19:52 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&g=2768&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1604743187&a=1607419195+1604743187+1605492703+1605492737+1607265642+1605492787+1605492788+1605492684+1605492704+1605561782&p=514490126+962377097+514306595+514199336+514227660+514198649+514308194+514456488+514198930+514202382&st=2092004542+4424604170+2090282089+2089456682+2089645414+2089454289+2090295614+2091727284+2089453131+2089472573 HTTP/1.1" 200 3351
+2025-01-22 07:19:52 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 07:19:52 [I] ATVP :  + PSSH: vgEAAAEAAQC0ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADMALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAFMAPgA8AEsASQBEACAAQQBMAEcASQBEAD0AIgBBAEUAUwBDAEIAQwAiACAAVgBBAEwAVQBFAD0AIgBBAEEAQQBBAEEARgB3ADUAaQBiAFYAagBOAGkAQQBnAEkAQwBBAGcASQBBAD0APQAiAD4APAAvAEsASQBEAD4APAAvAEsASQBEAFMAPgA8AC8AUABSAE8AVABFAEMAVABJAE4ARgBPAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=
+2025-01-22 07:19:52 [I] ATVP :  + KID: 00000000395cb5896336202020202020
+2025-01-22 07:19:52 [I] ATVP : Decrypting...
+2025-01-22 07:19:52 [I] ATVP :  + KEY: 66869da36be74b8dc042050d45790e55 (From Local LOCAL Key Vault)
+2025-01-22 07:19:52 [I] ATVP : Getting tracks for Severance S01E03 - In Perpetuity [umc.cmc.1srk2goyh2q2zdxcx605w8vtx]
+2025-01-22 07:19:53 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET /api/uts/v2/view/product/umc.cmc.4ck3lvf4abzoh8mhcvfixxfok/personalized?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 200 2171
+2025-01-22 07:19:53 [D] ATVP : {'svcId': 'tvs.vds.4105', 'isExternal': True, 'adamId': '1604767391'}
+2025-01-22 07:19:53 [D] ATVP : https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1604767391&isExternal=true&brandId=tvs.sbd.4000&id=962386804&l=en-US&aec=UHD
+2025-01-22 07:19:53 [D] urllib3.connectionpool : Starting new HTTPS connection (1): play-edge.itunes.apple.com:443
+2025-01-22 07:19:54 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1604767391&isExternal=true&brandId=tvs.sbd.4000&id=962386804&l=en-US&aec=UHD HTTP/1.1" 200 30611
+2025-01-22 07:19:54 [D] charset_normalizer : Encoding detection: utf_8 is most likely the one.
+2025-01-22 07:19:54 [W] Tracks :  - Found and skipped 2 duplicate tracks
+2025-01-22 07:19:54 [I] ATVP : > Selected Tracks:
+2025-01-22 07:19:54 [I] Tracks : 1 Video Track:
+2025-01-22 07:19:54 [I] Tracks : ├─ VID | [H.265, SDR] | 3840x1606 @ 20783 kb/s, 23.976 FPS
+2025-01-22 07:19:54 [I] Tracks : 1 Audio Track:
+2025-01-22 07:19:54 [I] Tracks : ├─ AUD | [E-AC3] | [atmos, atmos] | 16/JOC | 768 kb/s | en | [Original]
+2025-01-22 07:19:54 [I] Tracks : 1 Text Track:
+2025-01-22 07:19:54 [I] Tracks : ├─ SUB | [VTT] | en | [Original]
+2025-01-22 07:19:55 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&g=598&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1604767391&a=1607880645+1604767391+1607265492+1606628374+1606628541+1606628475+1609874135&p=514245991+962386804+514336373+514208943+514209081+514208992+514264066&st=2089786699+4424672245+2090535004+2089520392+2089520388+2089518391+2089912831 HTTP/1.1" 200 9893
+2025-01-22 07:19:55 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 07:19:55 [I] ATVP :  + PSSH: vgEAAAEAAQC0ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADMALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAFMAPgA8AEsASQBEACAAQQBMAEcASQBEAD0AIgBBAEUAUwBDAEIAQwAiACAAVgBBAEwAVQBFAD0AIgBBAEEAQQBBAEEARgB3ADUAZABOAHQAagBNAGkAQQBnAEkAQwBBAGcASQBBAD0APQAiAD4APAAvAEsASQBEAD4APAAvAEsASQBEAFMAPgA8AC8AUABSAE8AVABFAEMAVABJAE4ARgBPAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=
+2025-01-22 07:19:55 [I] ATVP :  + KID: 00000000395cdb746332202020202020
+2025-01-22 07:19:55 [I] ATVP : Decrypting...
+2025-01-22 07:19:55 [I] ATVP :  + KEY: fe8d8a73a4b11c93ccdfe0cd49e33db4 (From Local LOCAL Key Vault)
+2025-01-22 07:19:55 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&g=2768&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1604767391&a=1607880645+1604767391+1607265492+1606628374+1606628541+1606628475+1609874135&p=514245991+962386804+514336373+514208943+514209081+514208992+514264066&st=2089786525+4424671563+2090535118+2089520867+2089520902+2089518562+2089912944 HTTP/1.1" 200 3265
+2025-01-22 07:19:55 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 07:19:55 [I] ATVP :  + PSSH: vgEAAAEAAQC0ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADMALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAFMAPgA8AEsASQBEACAAQQBMAEcASQBEAD0AIgBBAEUAUwBDAEIAQwAiACAAVgBBAEwAVQBFAD0AIgBBAEEAQQBBAEEARgB3ADUAZABOAHQAagBOAGkAQQBnAEkAQwBBAGcASQBBAD0APQAiAD4APAAvAEsASQBEAD4APAAvAEsASQBEAFMAPgA8AC8AUABSAE8AVABFAEMAVABJAE4ARgBPAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=
+2025-01-22 07:19:55 [I] ATVP :  + KID: 00000000395cdb746336202020202020
+2025-01-22 07:19:55 [I] ATVP : Decrypting...
+2025-01-22 07:19:55 [I] ATVP :  + KEY: dd6d96f6cf6bd29faa060a52491f98d4 (From Local LOCAL Key Vault)
+2025-01-22 07:19:55 [I] ATVP : Getting tracks for Severance S01E04 - The You You Are [umc.cmc.1srk2goyh2q2zdxcx605w8vtx]
+2025-01-22 07:19:56 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET /api/uts/v2/view/product/umc.cmc.2juexqckb67v0zn5e6vrcgdua/personalized?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 200 2179
+2025-01-22 07:19:56 [D] ATVP : {'svcId': 'tvs.vds.4105', 'isExternal': True, 'adamId': '1609139076'}
+2025-01-22 07:19:56 [D] ATVP : https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1609139076&isExternal=true&brandId=tvs.sbd.4000&id=514661616&l=en-US&aec=UHD
+2025-01-22 07:19:56 [D] urllib3.connectionpool : Starting new HTTPS connection (1): play-edge.itunes.apple.com:443
+2025-01-22 07:19:56 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1609139076&isExternal=true&brandId=tvs.sbd.4000&id=514661616&l=en-US&aec=UHD HTTP/1.1" 200 32083
+2025-01-22 07:19:56 [D] charset_normalizer : Encoding detection: utf_8 is most likely the one.
+2025-01-22 07:19:57 [I] ATVP : > Selected Tracks:
+2025-01-22 07:19:57 [I] Tracks : 1 Video Track:
+2025-01-22 07:19:57 [I] Tracks : ├─ VID | [H.265, SDR] | 3840x1606 @ 20799 kb/s, 23.976 FPS
+2025-01-22 07:19:57 [I] Tracks : 1 Audio Track:
+2025-01-22 07:19:57 [I] Tracks : ├─ AUD | [E-AC3] | [atmos, atmos] | 16/JOC | 768 kb/s | en | [Original]
+2025-01-22 07:19:57 [I] Tracks : 1 Text Track:
+2025-01-22 07:19:57 [I] Tracks : ├─ SUB | [VTT] | en | [Original]
+2025-01-22 07:19:57 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&g=598&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1609139076&a=1609487748+1609139076+1609876262+1609788487+1609788440+1609876433+1609788346+1609788439+1609788471+1609792809&p=514511054+514661616+514263820+514359267+514374115+514263626+514375263+514373965+514523135+514360925&st=2092207710+2093554670+2089911618+2090765624+2090878534+2089911868+2090884723+2090876459+2092322402+2090780179 HTTP/1.1" 200 5446
+2025-01-22 07:19:57 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 07:19:57 [I] ATVP :  + PSSH: vgEAAAEAAQC0ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADMALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAFMAPgA8AEsASQBEACAAQQBMAEcASQBEAD0AIgBBAEUAUwBDAEIAQwAiACAAVgBBAEwAVQBFAD0AIgBBAEEAQQBBAEEASwAwAGUAOABCAHgAagBNAGkAQQBnAEkAQwBBAGcASQBBAD0APQAiAD4APAAvAEsASQBEAD4APAAvAEsASQBEAFMAPgA8AC8AUABSAE8AVABFAEMAVABJAE4ARgBPAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=
+2025-01-22 07:19:57 [I] ATVP :  + KID: 000000001ead1cf06332202020202020
+2025-01-22 07:19:57 [I] ATVP : Decrypting...
+2025-01-22 07:19:57 [I] ATVP :  + KEY: d8256479b3a93262933921ce410d7b57 (From Local LOCAL Key Vault)
+2025-01-22 07:19:58 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&g=2768&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1609139076&a=1609487748+1609139076+1609876262+1609788487+1609788440+1609876433+1609788346+1609788439+1609788471+1609792809&p=514511054+514661616+514263820+514359267+514374115+514263626+514375263+514373965+514523135+514360925&st=2092207641+2093549732+2089912123+2090765797+2090878709+2089911923+2090885476+2090876483+2092322440+2090780290 HTTP/1.1" 200 2508
+2025-01-22 07:19:58 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 07:19:58 [I] ATVP :  + PSSH: vgEAAAEAAQC0ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADMALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAFMAPgA8AEsASQBEACAAQQBMAEcASQBEAD0AIgBBAEUAUwBDAEIAQwAiACAAVgBBAEwAVQBFAD0AIgBBAEEAQQBBAEEASwAwAGUAOABCAHgAagBOAGkAQQBnAEkAQwBBAGcASQBBAD0APQAiAD4APAAvAEsASQBEAD4APAAvAEsASQBEAFMAPgA8AC8AUABSAE8AVABFAEMAVABJAE4ARgBPAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=
+2025-01-22 07:19:58 [I] ATVP :  + KID: 000000001ead1cf06336202020202020
+2025-01-22 07:19:58 [I] ATVP : Decrypting...
+2025-01-22 07:19:58 [I] ATVP :  + KEY: f979966018b48abfc6aa9f5664b1a2ad (From Local LOCAL Key Vault)
+2025-01-22 07:19:58 [I] ATVP : Getting tracks for Severance S01E05 - The Grim Barbarity Of Optics and Design [umc.cmc.1srk2goyh2q2zdxcx605w8vtx]
+2025-01-22 07:19:58 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET /api/uts/v2/view/product/umc.cmc.2p44dud00b3x466a7i98sogw3/personalized?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 200 2214
+2025-01-22 07:19:58 [D] ATVP : {'svcId': 'tvs.vds.4105', 'isExternal': True, 'adamId': '1611467022'}
+2025-01-22 07:19:58 [D] ATVP : https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1611467022&isExternal=true&brandId=tvs.sbd.4000&id=941364547&l=en-US&aec=UHD
+2025-01-22 07:19:58 [D] urllib3.connectionpool : Starting new HTTPS connection (1): play-edge.itunes.apple.com:443
+2025-01-22 07:20:00 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1611467022&isExternal=true&brandId=tvs.sbd.4000&id=941364547&l=en-US&aec=UHD HTTP/1.1" 200 31941
+2025-01-22 07:20:00 [D] charset_normalizer : Encoding detection: utf_8 is most likely the one.
+2025-01-22 07:20:00 [W] Tracks :  - Found and skipped 2 duplicate tracks
+2025-01-22 07:20:00 [I] ATVP : > Selected Tracks:
+2025-01-22 07:20:00 [I] Tracks : 1 Video Track:
+2025-01-22 07:20:00 [I] Tracks : ├─ VID | [H.265, SDR] | 3840x1606 @ 20936 kb/s, 23.976 FPS
+2025-01-22 07:20:00 [I] Tracks : 1 Audio Track:
+2025-01-22 07:20:00 [I] Tracks : ├─ AUD | [E-AC3] | [atmos, atmos] | 16/JOC | 768 kb/s | en | [Original]
+2025-01-22 07:20:00 [I] Tracks : 1 Text Track:
+2025-01-22 07:20:00 [I] Tracks : ├─ SUB | [VTT] | en | [Original]
+2025-01-22 07:20:01 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&g=598&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1611467022&a=1610603211+1611467022+1611858367+1611857824+1611857977+1611857791+1611857849+1611857692+1611857954&p=514276030+941364547+514390190+514536884+514277862+514389402+515583776+514388734+514277066&st=2090001875+4304574879+2091020719+2092460652+2090013959+2091016254+2099717838+2091016705+2090010168 HTTP/1.1" 200 8261
+2025-01-22 07:20:01 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 07:20:01 [I] ATVP :  + PSSH: vgEAAAEAAQC0ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADMALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAFMAPgA8AEsASQBEACAAQQBMAEcASQBEAD0AIgBBAEUAUwBDAEIAQwAiACAAVgBBAEwAVQBFAD0AIgBBAEEAQQBBAEEAQgB3ADQAUQB4AFYAagBNAGkAQQBnAEkAQwBBAGcASQBBAD0APQAiAD4APAAvAEsASQBEAD4APAAvAEsASQBEAFMAPgA8AC8AUABSAE8AVABFAEMAVABJAE4ARgBPAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=
+2025-01-22 07:20:01 [I] ATVP :  + KID: 00000000381c15436332202020202020
+2025-01-22 07:20:01 [I] ATVP : Decrypting...
+2025-01-22 07:20:01 [I] ATVP :  + KEY: 4b63ef3911484b7ce3a37ed5b7bae78c (From Local LOCAL Key Vault)
+2025-01-22 07:20:01 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&g=2768&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1611467022&a=1610603211+1611467022+1611858367+1611857824+1611857977+1611857791+1611857849+1611857692+1611857954&p=514276030+941364547+514390190+514536884+514277862+514389402+515583776+514388734+514277066&st=2090001872+4304566469+2091020746+2092460804+2090013963+2091016281+2099718467+2091016785+2090010224 HTTP/1.1" 200 2983
+2025-01-22 07:20:01 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 07:20:01 [I] ATVP :  + PSSH: vgEAAAEAAQC0ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADMALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAFMAPgA8AEsASQBEACAAQQBMAEcASQBEAD0AIgBBAEUAUwBDAEIAQwAiACAAVgBBAEwAVQBFAD0AIgBBAEEAQQBBAEEAQgB3ADQAUQB4AFYAagBOAGkAQQBnAEkAQwBBAGcASQBBAD0APQAiAD4APAAvAEsASQBEAD4APAAvAEsASQBEAFMAPgA8AC8AUABSAE8AVABFAEMAVABJAE4ARgBPAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=
+2025-01-22 07:20:01 [I] ATVP :  + KID: 00000000381c15436336202020202020
+2025-01-22 07:20:01 [I] ATVP : Decrypting...
+2025-01-22 07:20:01 [I] ATVP :  + KEY: 3aaf9f0059e149a062582a15d9d33430 (From Local LOCAL Key Vault)
+2025-01-22 07:20:01 [I] ATVP : Getting tracks for Severance S01E06 - Hide and Seek [umc.cmc.1srk2goyh2q2zdxcx605w8vtx]
+2025-01-22 07:20:02 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET /api/uts/v2/view/product/umc.cmc.qt72g1q6z8l5pq5dxe3fp879/personalized?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 200 2181
+2025-01-22 07:20:02 [D] ATVP : {'svcId': 'tvs.vds.4105', 'isExternal': True, 'adamId': '1613300378'}
+2025-01-22 07:20:02 [D] ATVP : https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1613300378&isExternal=true&brandId=tvs.sbd.4000&id=962390199&l=en-US&aec=UHD
+2025-01-22 07:20:02 [D] urllib3.connectionpool : Starting new HTTPS connection (1): play-edge.itunes.apple.com:443
+2025-01-22 07:20:02 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1613300378&isExternal=true&brandId=tvs.sbd.4000&id=962390199&l=en-US&aec=UHD HTTP/1.1" 200 28412
+2025-01-22 07:20:02 [D] charset_normalizer : Encoding detection: utf_8 is most likely the one.
+2025-01-22 07:20:03 [W] Tracks :  - Found and skipped 2 duplicate tracks
+2025-01-22 07:20:03 [I] ATVP : > Selected Tracks:
+2025-01-22 07:20:03 [I] Tracks : 1 Video Track:
+2025-01-22 07:20:03 [I] Tracks : ├─ VID | [H.265, SDR] | 3840x1606 @ 20954 kb/s, 23.976 FPS
+2025-01-22 07:20:03 [I] Tracks : 1 Audio Track:
+2025-01-22 07:20:03 [I] Tracks : ├─ AUD | [E-AC3] | [atmos, atmos] | 16/JOC | 768 kb/s | en | [Original]
+2025-01-22 07:20:03 [I] Tracks : 1 Text Track:
+2025-01-22 07:20:03 [I] Tracks : ├─ SUB | [VTT] | en | [Original]
+2025-01-22 07:20:03 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&g=598&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1613300378&a=1611645628+1613300378&p=514279486+962390199&st=2090030081+4424671734 HTTP/1.1" 200 7002
+2025-01-22 07:20:03 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 07:20:03 [I] ATVP :  + PSSH: vgEAAAEAAQC0ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADMALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAFMAPgA8AEsASQBEACAAQQBMAEcASQBEAD0AIgBBAEUAUwBDAEIAQwAiACAAVgBBAEwAVQBFAD0AIgBBAEEAQQBBAEEARgB3ADUAdAArAGgAagBNAGkAQQBnAEkAQwBBAGcASQBBAD0APQAiAD4APAAvAEsASQBEAD4APAAvAEsASQBEAFMAPgA8AC8AUABSAE8AVABFAEMAVABJAE4ARgBPAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=
+2025-01-22 07:20:03 [I] ATVP :  + KID: 00000000395ce8b76332202020202020
+2025-01-22 07:20:03 [I] ATVP : Decrypting...
+2025-01-22 07:20:03 [I] ATVP :  + KEY: 8e468ed057c3ada24a12e53681c432a4 (From Local LOCAL Key Vault)
+2025-01-22 07:20:04 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&g=2768&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1613300378&a=1611645628+1613300378&p=514279486+962390199&st=2090030076+4424670607 HTTP/1.1" 200 2335
+2025-01-22 07:20:04 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 07:20:04 [I] ATVP :  + PSSH: vgEAAAEAAQC0ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADMALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAFMAPgA8AEsASQBEACAAQQBMAEcASQBEAD0AIgBBAEUAUwBDAEIAQwAiACAAVgBBAEwAVQBFAD0AIgBBAEEAQQBBAEEARgB3ADUAdAArAGgAagBOAGkAQQBnAEkAQwBBAGcASQBBAD0APQAiAD4APAAvAEsASQBEAD4APAAvAEsASQBEAFMAPgA8AC8AUABSAE8AVABFAEMAVABJAE4ARgBPAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=
+2025-01-22 07:20:04 [I] ATVP :  + KID: 00000000395ce8b76336202020202020
+2025-01-22 07:20:04 [I] ATVP : Decrypting...
+2025-01-22 07:20:04 [I] ATVP :  + KEY: 9fe4f4fadf19b285e6494a0bd2836510 (From Local LOCAL Key Vault)
+2025-01-22 07:20:04 [I] ATVP : Getting tracks for Severance S01E07 - Defiant Jazz [umc.cmc.1srk2goyh2q2zdxcx605w8vtx]
+2025-01-22 07:20:04 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET /api/uts/v2/view/product/umc.cmc.18x6l3djbw7lajdvor7ku60dp/personalized?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 200 2178
+2025-01-22 07:20:04 [D] ATVP : {'svcId': 'tvs.vds.4105', 'isExternal': True, 'adamId': '1613647786'}
+2025-01-22 07:20:04 [D] ATVP : https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1613647786&isExternal=true&brandId=tvs.sbd.4000&id=922578021&l=en-US&aec=UHD
+2025-01-22 07:20:04 [D] urllib3.connectionpool : Starting new HTTPS connection (1): play-edge.itunes.apple.com:443
+2025-01-22 07:20:05 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1613647786&isExternal=true&brandId=tvs.sbd.4000&id=922578021&l=en-US&aec=UHD HTTP/1.1" 200 31985
+2025-01-22 07:20:05 [D] charset_normalizer : Encoding detection: utf_8 is most likely the one.
+2025-01-22 07:20:05 [W] Tracks :  - Found and skipped 2 duplicate tracks
+2025-01-22 07:20:05 [I] ATVP : > Selected Tracks:
+2025-01-22 07:20:05 [I] Tracks : 1 Video Track:
+2025-01-22 07:20:05 [I] Tracks : ├─ VID | [H.265, SDR] | 3840x1606 @ 20950 kb/s, 23.976 FPS
+2025-01-22 07:20:05 [I] Tracks : 1 Audio Track:
+2025-01-22 07:20:05 [I] Tracks : ├─ AUD | [E-AC3] | [atmos, atmos] | 16/JOC | 768 kb/s | en | [Original]
+2025-01-22 07:20:05 [I] Tracks : 1 Text Track:
+2025-01-22 07:20:05 [I] Tracks : ├─ SUB | [VTT] | en | [Original]
+2025-01-22 07:20:06 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&g=598&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1613647786&a=1613439332+1613647786+1614038704+1614038946+1614038873+1614039008+1614038872+1614038824+1614038949+1614038982&p=514423936+922578021+514424652+514402824+514580485+514314816+514424271+514424425+514287661+514314957&st=2091401710+4204461961+2091409630+2091153076+2092858895+2090350686+2091405447+2091408081+2090087663+2090355422 HTTP/1.1" 200 8944
+2025-01-22 07:20:06 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 07:20:06 [I] ATVP :  + PSSH: vgEAAAEAAQC0ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADMALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAFMAPgA8AEsASQBEACAAQQBMAEcASQBEAD0AIgBBAEUAUwBDAEIAQwAiACAAVgBBAEwAVQBFAD0AIgBBAEEAQQBBAEEAUAAwADIAWgBXAHgAagBNAGkAQQBnAEkAQwBBAGcASQBBAD0APQAiAD4APAAvAEsASQBEAD4APAAvAEsASQBEAFMAPgA8AC8AUABSAE8AVABFAEMAVABJAE4ARgBPAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=
+2025-01-22 07:20:06 [I] ATVP :  + KID: 0000000036fd6c656332202020202020
+2025-01-22 07:20:06 [I] ATVP : Decrypting...
+2025-01-22 07:20:06 [I] ATVP :  + KEY: 22ff0732b53b66ead09cab1627308214 (From Local LOCAL Key Vault)
+2025-01-22 07:20:06 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&g=2768&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1613647786&a=1613439332+1613647786+1614038704+1614038946+1614038873+1614039008+1614038872+1614038824+1614038949+1614038982&p=514423936+922578021+514424652+514402824+514580485+514314816+514424271+514424425+514287661+514314957&st=2091400474+4204453541+2091409670+2091153327+2092858944+2090350795+2091405709+2091408095+2090087763+2090355606 HTTP/1.1" 200 3279
+2025-01-22 07:20:06 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 07:20:06 [I] ATVP :  + PSSH: vgEAAAEAAQC0ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADMALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAFMAPgA8AEsASQBEACAAQQBMAEcASQBEAD0AIgBBAEUAUwBDAEIAQwAiACAAVgBBAEwAVQBFAD0AIgBBAEEAQQBBAEEAUAAwADIAWgBXAHgAagBOAGkAQQBnAEkAQwBBAGcASQBBAD0APQAiAD4APAAvAEsASQBEAD4APAAvAEsASQBEAFMAPgA8AC8AUABSAE8AVABFAEMAVABJAE4ARgBPAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=
+2025-01-22 07:20:06 [I] ATVP :  + KID: 0000000036fd6c656336202020202020
+2025-01-22 07:20:06 [I] ATVP : Decrypting...
+2025-01-22 07:20:06 [I] ATVP :  + KEY: e9ac4d93660d13eaca8e71b476e5bae0 (From Local LOCAL Key Vault)
+2025-01-22 07:20:06 [I] ATVP : Getting tracks for Severance S01E08 - What’s for Dinner? [umc.cmc.1srk2goyh2q2zdxcx605w8vtx]
+2025-01-22 07:20:07 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET /api/uts/v2/view/product/umc.cmc.66apkliyg6426teojr78q3o4t/personalized?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 200 2187
+2025-01-22 07:20:07 [D] ATVP : {'svcId': 'tvs.vds.4105', 'isExternal': True, 'adamId': '1614147691'}
+2025-01-22 07:20:07 [D] ATVP : https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1614147691&isExternal=true&brandId=tvs.sbd.4000&id=514663846&l=en-US&aec=UHD
+2025-01-22 07:20:07 [D] urllib3.connectionpool : Starting new HTTPS connection (1): play-edge.itunes.apple.com:443
+2025-01-22 07:20:08 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1614147691&isExternal=true&brandId=tvs.sbd.4000&id=514663846&l=en-US&aec=UHD HTTP/1.1" 200 32482
+2025-01-22 07:20:08 [D] charset_normalizer : Encoding detection: utf_8 is most likely the one.
+2025-01-22 07:20:08 [I] ATVP : > Selected Tracks:
+2025-01-22 07:20:08 [I] Tracks : 1 Video Track:
+2025-01-22 07:20:08 [I] Tracks : ├─ VID | [H.265, SDR] | 3840x1606 @ 20931 kb/s, 23.976 FPS
+2025-01-22 07:20:08 [I] Tracks : 1 Audio Track:
+2025-01-22 07:20:08 [I] Tracks : ├─ AUD | [E-AC3] | [atmos, atmos] | 16/JOC | 768 kb/s | en | [Original]
+2025-01-22 07:20:08 [I] Tracks : 1 Text Track:
+2025-01-22 07:20:08 [I] Tracks : ├─ SUB | [VTT] | en | [Original]
+2025-01-22 07:20:09 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&g=598&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1614147691&a=1614137979+1614147691+1614262759+1614262858+1614263541+1614262859+1614262822+1614262861+1614263580+1614262757&p=514442984+514663846+514333144+514440763+514411287+514441023+514441442+514607926+514291819+514333335&st=2091577788+2093501655+2090505714+2091552196+2091255248+2091556556+2091558935+2093034285+2090131430+2090508396 HTTP/1.1" 200 5459
+2025-01-22 07:20:09 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 07:20:09 [I] ATVP :  + PSSH: vgEAAAEAAQC0ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADMALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAFMAPgA8AEsASQBEACAAQQBMAEcASQBEAD0AIgBBAEUAUwBDAEIAQwAiACAAVgBBAEwAVQBFAD0AIgBBAEEAQQBBAEEASwAwAGUAcABpAFYAagBNAGkAQQBnAEkAQwBBAGcASQBBAD0APQAiAD4APAAvAEsASQBEAD4APAAvAEsASQBEAFMAPgA8AC8AUABSAE8AVABFAEMAVABJAE4ARgBPAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=
+2025-01-22 07:20:09 [I] ATVP :  + KID: 000000001ead25a66332202020202020
+2025-01-22 07:20:09 [I] ATVP : Decrypting...
+2025-01-22 07:20:09 [I] ATVP :  + KEY: 18c00a3d15a5b2ef028754d95f4f4337 (From Local LOCAL Key Vault)
+2025-01-22 07:20:09 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&g=2768&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1614147691&a=1614137979+1614147691+1614262759+1614262858+1614263541+1614262859+1614262822+1614262861+1614263580+1614262757&p=514442984+514663846+514333144+514440763+514411287+514441023+514441442+514607926+514291819+514333335&st=2091578299+2093485120+2090505809+2091552737+2091255468+2091556639+2091559049+2093035000+2090131578+2090508565 HTTP/1.1" 200 2502
+2025-01-22 07:20:09 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 07:20:09 [I] ATVP :  + PSSH: vgEAAAEAAQC0ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADMALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAFMAPgA8AEsASQBEACAAQQBMAEcASQBEAD0AIgBBAEUAUwBDAEIAQwAiACAAVgBBAEwAVQBFAD0AIgBBAEEAQQBBAEEASwAwAGUAcABpAFYAagBOAGkAQQBnAEkAQwBBAGcASQBBAD0APQAiAD4APAAvAEsASQBEAD4APAAvAEsASQBEAFMAPgA8AC8AUABSAE8AVABFAEMAVABJAE4ARgBPAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=
+2025-01-22 07:20:09 [I] ATVP :  + KID: 000000001ead25a66336202020202020
+2025-01-22 07:20:09 [I] ATVP : Decrypting...
+2025-01-22 07:20:09 [I] ATVP :  + KEY: e30e91d268515228257c47f2260e4334 (From Local LOCAL Key Vault)
+2025-01-22 07:20:09 [I] ATVP : Getting tracks for Severance S01E09 - The We We Are [umc.cmc.1srk2goyh2q2zdxcx605w8vtx]
+2025-01-22 07:20:10 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET /api/uts/v2/view/product/umc.cmc.5d8khnxea17tjwm0yxhyw1s0f/personalized?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 200 2186
+2025-01-22 07:20:10 [D] ATVP : {'svcId': 'tvs.vds.4105', 'isExternal': True, 'adamId': '1614558152'}
+2025-01-22 07:20:10 [D] ATVP : https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1614558152&isExternal=true&brandId=tvs.sbd.4000&id=961914670&l=en-US&aec=UHD
+2025-01-22 07:20:10 [D] urllib3.connectionpool : Starting new HTTPS connection (1): play-edge.itunes.apple.com:443
+2025-01-22 07:20:11 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1614558152&isExternal=true&brandId=tvs.sbd.4000&id=961914670&l=en-US&aec=UHD HTTP/1.1" 200 32119
+2025-01-22 07:20:11 [D] charset_normalizer : Encoding detection: utf_8 is most likely the one.
+2025-01-22 07:20:11 [W] Tracks :  - Found and skipped 2 duplicate tracks
+2025-01-22 07:20:11 [I] ATVP : > Selected Tracks:
+2025-01-22 07:20:11 [I] Tracks : 1 Video Track:
+2025-01-22 07:20:11 [I] Tracks : ├─ VID | [H.265, SDR] | 3840x1606 @ 20981 kb/s, 23.976 FPS
+2025-01-22 07:20:11 [I] Tracks : 1 Audio Track:
+2025-01-22 07:20:11 [I] Tracks : ├─ AUD | [E-AC3] | [atmos, atmos] | 16/JOC | 768 kb/s | en | [Original]
+2025-01-22 07:20:11 [I] Tracks : 1 Text Track:
+2025-01-22 07:20:11 [I] Tracks : ├─ SUB | [VTT] | en | [Original]
+2025-01-22 07:20:11 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&g=598&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1614558152&a=1614498940+1614558152+1614774502+1614774820+1614774446+1614774558+1614774588+1614774639+1615302718+1614774556&p=514353710+961914670+514616904+514445983+514444577+514293290+514338262+514343293+514627752+514414211&st=2090691974+4422333899+2093111848+2091603610+2091590938+2090145271+2090548160+2090584890+2093195442+2091285576 HTTP/1.1" 200 7631
+2025-01-22 07:20:11 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 07:20:11 [I] ATVP :  + PSSH: vgEAAAEAAQC0ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADMALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAFMAPgA8AEsASQBEACAAQQBMAEcASQBEAD0AIgBBAEUAUwBDAEIAQwAiACAAVgBBAEwAVQBFAD0AIgBBAEEAQQBBAEEARgBVADUATABxAGQAagBNAGkAQQBnAEkAQwBBAGcASQBBAD0APQAiAD4APAAvAEsASQBEAD4APAAvAEsASQBEAFMAPgA8AC8AUABSAE8AVABFAEMAVABJAE4ARgBPAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=
+2025-01-22 07:20:11 [I] ATVP :  + KID: 000000003955a72e6332202020202020
+2025-01-22 07:20:11 [I] ATVP : Decrypting...
+2025-01-22 07:20:11 [I] ATVP :  + KEY: e49c8b07100c75796ebddc7c7e19cc7f (From Local LOCAL Key Vault)
+2025-01-22 07:20:12 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&g=2768&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1614558152&a=1614498940+1614558152+1614774502+1614774820+1614774446+1614774558+1614774588+1614774639+1615302718+1614774556&p=514353710+961914670+514616904+514445983+514444577+514293290+514338262+514343293+514627752+514414211&st=2090690185+4422330706+2093111907+2091603662+2091590968+2090145488+2090548383+2090585006+2093195839+2091285916 HTTP/1.1" 200 2959
+2025-01-22 07:20:12 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 07:20:12 [I] ATVP :  + PSSH: vgEAAAEAAQC0ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADMALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAFMAPgA8AEsASQBEACAAQQBMAEcASQBEAD0AIgBBAEUAUwBDAEIAQwAiACAAVgBBAEwAVQBFAD0AIgBBAEEAQQBBAEEARgBVADUATABxAGQAagBOAGkAQQBnAEkAQwBBAGcASQBBAD0APQAiAD4APAAvAEsASQBEAD4APAAvAEsASQBEAFMAPgA8AC8AUABSAE8AVABFAEMAVABJAE4ARgBPAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=
+2025-01-22 07:20:12 [I] ATVP :  + KID: 000000003955a72e6336202020202020
+2025-01-22 07:20:12 [I] ATVP : Decrypting...
+2025-01-22 07:20:12 [I] ATVP :  + KEY: 562914e9a269675cdf351672e3a42416 (From Local LOCAL Key Vault)
+2025-01-22 07:20:12 [I] ATVP : Getting tracks for Severance S02E01 - Hello, Ms. Cobel [umc.cmc.1srk2goyh2q2zdxcx605w8vtx]
+2025-01-22 07:20:12 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET /api/uts/v2/view/product/umc.cmc.1xkk4g9qkusfdsjezvqznch8b/personalized?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 200 2173
+2025-01-22 07:20:12 [D] ATVP : {'svcId': 'tvs.vds.4105', 'isExternal': True, 'adamId': '1783451780'}
+2025-01-22 07:20:12 [D] ATVP : https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1783451780&isExternal=true&brandId=tvs.sbd.4000&id=985501539&l=en-US&aec=UHD
+2025-01-22 07:20:12 [D] urllib3.connectionpool : Starting new HTTPS connection (1): play-edge.itunes.apple.com:443
+2025-01-22 07:20:13 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1783451780&isExternal=true&brandId=tvs.sbd.4000&id=985501539&l=en-US&aec=UHD HTTP/1.1" 200 31257
+2025-01-22 07:20:13 [D] charset_normalizer : Encoding detection: utf_8 is most likely the one.
+2025-01-22 07:20:13 [I] ATVP : > Selected Tracks:
+2025-01-22 07:20:13 [I] Tracks : 1 Video Track:
+2025-01-22 07:20:13 [I] Tracks : ├─ VID | [H.265, SDR] | 3840x1606 @ 20633 kb/s, 23.976 FPS
+2025-01-22 07:20:13 [I] Tracks : 1 Audio Track:
+2025-01-22 07:20:13 [I] Tracks : ├─ AUD | [E-AC3] | [atmos, atmos] | 16/JOC | 768 kb/s | en | [Original]
+2025-01-22 07:20:13 [I] Tracks : 1 Text Track:
+2025-01-22 07:20:13 [I] Tracks : ├─ SUB | [VTT] | en | [Original]
+2025-01-22 07:20:14 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&g=598&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1783451780&a=1784674378+1783451780+1784995987+1784996012+1784995983+1785696284+1784995696+1784995695+1784995866+1786214849&p=970642010+985501539+964713694+964716756+964713830+966389021+964715065+964716615+964714473+967476699&st=4469406422+4552438759+4437385786+4437403236+4437387577+4446182669+4437396163+4437403526+4437391785+4451913992 HTTP/1.1" 200 9348
+2025-01-22 07:20:14 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 07:20:14 [I] ATVP :  + PSSH: vgEAAAEAAQC0ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADMALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAFMAPgA8AEsASQBEACAAQQBMAEcASQBEAD0AIgBBAEUAUwBDAEIAQwAiACAAVgBBAEwAVQBFAD0AIgBBAEEAQQBBAEEATAAwADYAWQA0ADkAagBNAGkAQQBnAEkAQwBBAGcASQBBAD0APQAiAD4APAAvAEsASQBEAD4APAAvAEsASQBEAFMAPgA8AC8AUABSAE8AVABFAEMAVABJAE4ARgBPAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=
+2025-01-22 07:20:14 [I] ATVP :  + KID: 000000003abd8f636332202020202020
+2025-01-22 07:20:14 [I] ATVP : Decrypting...
+2025-01-22 07:20:14 [I] ATVP : CDM Session ID - c6edad5169d35e49c9ec1db0a3abf5e7
+2025-01-22 07:20:14 [D] urllib3.connectionpool : Starting new HTTPS connection (1): play.itunes.apple.com:443
+2025-01-22 07:20:16 [D] urllib3.connectionpool : https://play.itunes.apple.com:443 "POST /WebObjects/MZPlay.woa/wa/fpsRequest?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 200 1167
+2025-01-22 07:20:16 [I] ATVP :  + Obtained content keys from the CDM
+2025-01-22 07:20:16 [I] ATVP :  + 000000003abd8f636332202020202020:42957ce8e37b58a67ad31cbe13053efb
+2025-01-22 07:20:16 [I] ATVP : Caching to Local (LOCAL) vault
+2025-01-22 07:20:16 [I] ATVP :  + Cached 1/1 keys
+2025-01-22 07:20:16 [I] ATVP :  + KEY: 42957ce8e37b58a67ad31cbe13053efb (From CDM)
+2025-01-22 07:20:17 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&g=2768&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1783451780&a=1784674378+1783451780+1784995987+1784996012+1784995983+1785696284+1784995696+1784995695+1784995866+1786214849&p=970642010+985501539+964713694+964716756+964713830+966389021+964715065+964716615+964714473+967476699&st=4469404254+4552435185+4437385602+4437403190+4437387572+4446181495+4437395462+4437402907+4437391200+4451912133 HTTP/1.1" 200 3401
+2025-01-22 07:20:17 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 07:20:17 [I] ATVP :  + PSSH: vgEAAAEAAQC0ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADMALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAFMAPgA8AEsASQBEACAAQQBMAEcASQBEAD0AIgBBAEUAUwBDAEIAQwAiACAAVgBBAEwAVQBFAD0AIgBBAEEAQQBBAEEATAAwADYAWQA0ADkAagBOAGkAQQBnAEkAQwBBAGcASQBBAD0APQAiAD4APAAvAEsASQBEAD4APAAvAEsASQBEAFMAPgA8AC8AUABSAE8AVABFAEMAVABJAE4ARgBPAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=
+2025-01-22 07:20:17 [I] ATVP :  + KID: 000000003abd8f636336202020202020
+2025-01-22 07:20:17 [I] ATVP : Decrypting...
+2025-01-22 07:20:17 [I] ATVP : CDM Session ID - dcd191472801b6106f216ad518798079
+2025-01-22 07:20:17 [D] urllib3.connectionpool : https://play.itunes.apple.com:443 "POST /WebObjects/MZPlay.woa/wa/fpsRequest?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 200 1134
+2025-01-22 07:20:17 [I] ATVP :  + Obtained content keys from the CDM
+2025-01-22 07:20:17 [I] ATVP :  + 000000003abd8f636336202020202020:9ec1b140923977e2e19680855021e5a7
+2025-01-22 07:20:17 [I] ATVP : Caching to Local (LOCAL) vault
+2025-01-22 07:20:17 [I] ATVP :  + Cached 1/1 keys
+2025-01-22 07:20:17 [I] ATVP :  + KEY: 9ec1b140923977e2e19680855021e5a7 (From CDM)
+2025-01-22 07:20:17 [I] ATVP : Getting tracks for Severance S02E02 - Goodbye, Mrs. Selvig [umc.cmc.1srk2goyh2q2zdxcx605w8vtx]
+2025-01-22 07:20:18 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET /api/uts/v2/view/product/umc.cmc.6sye1rbpj966p9952s1svo9m3/personalized?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 200 1110
+2025-01-22 07:20:18 [D] ATVP : {'id': 'tvs.sbd.4000:A0005902002', 'title': 'Goodbye, Mrs. Selvig', 'images': {'coverArt': {'width': 3840, 'height': 2160, 'url': 'https://is1-ssl.mzstatic.com/image/thumb/t8ed6Apz54tSP7LLoZNmSQ/{w}x{h}.{f}', 'joeColor': 'b:rgb(190,206,218) p:rgb(5,13,23) s:rgb(3,15,27) t:rgb(42,52,62) q:rgb(40,53,65)'}, 'coverArt16X9': {'width': 3840, 'height': 2160, 'url': 'https://is1-ssl.mzstatic.com/image/thumb/t8ed6Apz54tSP7LLoZNmSQ/{w}x{h}.{f}', 'joeColor': 'b:rgb(190,206,218) p:rgb(5,13,23) s:rgb(3,15,27) t:rgb(42,52,62) q:rgb(40,53,65)'}}, 'url': 'https://tv.apple.com/us/episode/goodbye-mrs-selvig/umc.cmc.6sye1rbpj966p9952s1svo9m3?showId=umc.cmc.1srk2goyh2q2zdxcx605w8vtx&playableId=tvs.sbd.4000%3AA0005902002', 'type': 'Vod', 'channelId': 'tvs.sbd.4000', 'isEntitled': False, 'isEntitledToPlayOnDevice': False, 'isEntitledToPlay': False, 'isConsented': True, 'contentId': 'umc.cmr.atvp.ep.474vyunlx1dtb74efl7pye6vt', 'canonicalId': 'umc.cmc.6sye1rbpj966p9952s1svo9m3', 'contentType': 'Episode', 'externalId': 'A0005902002', 'isItunes': False, 'entitlementReason': 'Unknown', 'isGeoRestricted': False, 'isComingSoon': True, 'comingSoonDate': '2025-01-24', 'isMarkAsWatchedEnabled': False}
+2025-01-22 07:20:18 [C] ATVP :  - User is not entitled to play this title

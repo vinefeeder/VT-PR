@@ -1,0 +1,211 @@
+2025-01-23 07:47:56 [I] vt : vinetrimmer - Widevine DRM downloader and decrypter
+2025-01-23 07:47:56 [I] vt : [Root Config]     : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\vinetrimmer.yml
+2025-01-23 07:47:56 [I] vt : [Service Configs] : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\Services
+2025-01-23 07:47:56 [I] vt : [Cookies]         : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\Cookies
+2025-01-23 07:47:56 [I] vt : [CDM Devices]     : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\devices
+2025-01-23 07:47:56 [I] vt : [Cache]           : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\Cache
+2025-01-23 07:47:56 [I] vt : [Logs]            : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\Logs
+2025-01-23 07:47:56 [I] vt : [Temp Files]      : B:\decryption\PlayReady-Amazon-Tool-main\Temp
+2025-01-23 07:47:56 [I] vt : [Downloads]       : B:\decryption\PlayReady-Amazon-Tool-main\Downloads
+2025-01-23 07:47:56 [I] dl :  + 1 Local Vault
+2025-01-23 07:47:56 [I] dl :  + 0 Remote Vaults
+2025-01-23 07:47:56 [I] dl :  + Loaded Device: Hisense SmartTV HU50A6100UW (L3000)
+2025-01-23 07:47:56 [I] ATVP :  - Setting Video codec to H265 to get UHD
+2025-01-23 07:47:57 [D] urllib3.connectionpool : Starting new HTTPS connection (1): tv.apple.com:443
+2025-01-23 07:47:59 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET / HTTP/1.1" 200 None
+2025-01-23 07:48:00 [I] ATVP : Retrieving Titles
+2025-01-23 07:48:02 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET /api/uts/v3/shows/umc.cmc.1ivowfwigmx4dmfii3xekmoaq?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 404 114
+2025-01-23 07:48:02 [D] urllib3.connectionpool : Starting new HTTPS connection (2): tv.apple.com:443
+2025-01-23 07:48:03 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET /api/uts/v3/movies/umc.cmc.1ivowfwigmx4dmfii3xekmoaq?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 200 4735
+2025-01-23 07:48:03 [D] ATVP : {'backgroundVideo': {'assets': {'assetAdamId': '1763010844', 'fpsCertificateUrl': 'https://s.mzstatic.com/skdtool_2021_certbundle.bin', 'fpsKeyServerQueryParameters': {'adamId': '1763010844', 'isExternal': True, 'svcId': 'tvs.vds.4105'}, 'fpsKeyServerUrl': 'https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/wa/fpsRequest', 'fpsNonceServerUrl': 'https://play.itunes.apple.com/WebObjects/MZPlay.woa/wa/checkInNonceRequest', 'hlsUrl': 'https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1763010844&isExternal=true&brandId=tvs.sbd.4000&id=909706661&l=en-US&aec=UHD', 'programId': '909706661'}, 'duration': 101, 'id': 'umc.cmr.atvp.ex.2d7w0w8lla8vpm7l7jja558a5', 'images': {'contentImage': {'height': 2160, 'isP3': False, 'joeColor': 'b:rgb(39,29,21) p:rgb(243,183,134) s:rgb(241,178,136) t:rgb(202,152,111) q:rgb(200,148,113)', 'supportsLayeredImage': False, 'url': 'https://is1-ssl.mzstatic.com/image/thumb/fj1cGKdtCPvUgZIYaVuxeg/{w}x{h}.{f}', 'width': 3840}}, 'mediaMetrics': {'MediaIdentifier': 'a=1763010844:p=909706661:s=tvs.vds.4105:cid=umc.cmc.54oko3xpxnpwal47sh8a7jdjk:rid=umc.cmr.atvp.ex.2d7w0w8lla8vpm7l7jja558a5:e=trailer', 'iTunesServiceMonitoringKey': True}, 'title': 'Blitz Trailer'}, 'commonSenseMedia': {'contentInfo': [{'label': 'Positive Messages', 'rating': 3}, {'label': 'Positive Role Models', 'rating': 3}, {'label': 'Violence', 'rating': 3}, {'label': 'Sex', 'rating': 3}, {'label': 'Language', 'rating': 3}, {'label': 'Consumerism', 'rating': 0}, {'label': 'Drinking, Drugs & Smoking', 'rating': 3}], 'oneLiner': 'British wartime drama with a focus on race and identity.', 'recommendedAge': 13}, 'countriesOfOrigin': [{'countryCode': 'GB', 'displayName': 'United Kingdom'}], 'description': 'In World War II London, nine-year-old George is evacuated to the countryside by his mother, Rita, to escape the bombings. Defiant and determined to return to his family, George embarks on an epic, perilous journey back home as Rita searches for him.', 'duration': 7200, 'genres': [{'id': 'umc.gnr.mov.drama', 'name': 'Drama', 'type': 'Genre', 'url': 'https://tv.apple.com/us/genre/drama/umc.gnr.mov.drama'}], 'id': 'umc.cmc.1ivowfwigmx4dmfii3xekmoaq', 'images': {'contentImage': {'height': 3240, 'isP3': False, 'joeColor': 'b:rgb(23,31,37) p:rgb(224,214,195) s:rgb(214,187,159) t:rgb(184,178,163) q:rgb(175,156,134)', 'supportsLayeredImage': False, 'url': 'https://is1-ssl.mzstatic.com/image/thumb/f_X6E6ZlHD4mHI2DpTmmWA/{w}x{h}ta.{f}', 'width': 4320}, 'contentImageTall': {'height': 3636, 'joeColor': 'b:rgb(28,19,27) p:rgb(210,197,171) s:rgb(206,176,149) t:rgb(174,161,142) q:rgb(171,144,125)', 'supportsLayeredImage': False, 'url': 'https://is1-ssl.mzstatic.com/image/thumb/_1auIt4Cths2znAQR1-9mQ/{w}x{h}tc.{f}', 'width': 1680}, 'contentLogo': {'height': 508, 'isP3': False, 'joeColor': 'b:rgb(255,255,255) p:rgb(12,12,12) s:rgb(25,25,25) t:rgb(61,61,61) q:rgb(71,71,71)', 'supportsLayeredImage': False, 'url': 'https://is1-ssl.mzstatic.com/image/thumb/66b9zCz7EoSH1ur5EbB2yw/{w}x{h}.{f}', 'width': 2766}, 'posterArt': {'height': 2160, 'isP3': False, 'joeColor': 'b:rgb(76,74,68) p:rgb(234,233,232) s:rgb(222,195,167) t:rgb(202,201,199) q:rgb(192,171,147)', 'supportsLayeredImage': False, 'url': 'https://is1-ssl.mzstatic.com/image/thumb/VyPQzuKZxetrl-S8k3j3PA/{w}x{h}.{f}', 'width': 3840}}, 'isAppleOriginal': True, 'originalSpokenLanguages': [{'displayName': 'English', 'locale': 'en'}], 'rating': {'displayName': 'PG-13', 'name': 'PG_13', 'reason': 'Thematic elements including some racism, violence, some strong language, brief sexuality and smoking.', 'system': 'mpaa', 'systemType': 'movies', 'value': 300}, 'releaseDate': 1730419200000, 'rolesSummary': {'cast': ['Saoirse Ronan', 'Harris Dickinson', 'Elliott Heffernan'], 'directors': ['Steve McQueen']}, 'title': 'Blitz', 'type': 'Movie', 'url': 'https://tv.apple.com/us/movie/blitz/umc.cmc.1ivowfwigmx4dmfii3xekmoaq'}
+2025-01-23 07:48:03 [I] Titles : Title: Blitz
+2025-01-23 07:48:03 [I] ATVP : Getting tracks for Blitz (2024) [umc.cmc.1ivowfwigmx4dmfii3xekmoaq]
+2025-01-23 07:48:04 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET /api/uts/v2/view/product/umc.cmc.1ivowfwigmx4dmfii3xekmoaq/personalized?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 200 2375
+2025-01-23 07:48:04 [D] ATVP : {'svcId': 'tvs.vds.4105', 'isExternal': True, 'adamId': '1768200290'}
+2025-01-23 07:48:04 [D] ATVP : https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1768200290&isExternal=true&brandId=tvs.sbd.4000&id=928224589&l=en-US&aec=UHD
+2025-01-23 07:48:04 [D] urllib3.connectionpool : Starting new HTTPS connection (1): play-edge.itunes.apple.com:443
+2025-01-23 07:48:06 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1768200290&isExternal=true&brandId=tvs.sbd.4000&id=928224589&l=en-US&aec=UHD HTTP/1.1" 200 28482
+2025-01-23 07:48:06 [D] charset_normalizer : Encoding detection: utf_8 is most likely the one.
+2025-01-23 07:48:07 [I] ATVP : > All Tracks:
+2025-01-23 07:48:07 [I] Tracks : 38 Video Tracks:
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, DV] | 3840x1606 @ 24202 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, HDR10] | 3840x1606 @ 24110 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, SDR] | 3840x1606 @ 20542 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, HDR10] | 3840x1606 @ 14505 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, DV] | 3840x1606 @ 14464 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, SDR] | 3840x1606 @ 12020 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, DV] | 1918x802 @ 8408 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, SDR] | 1918x802 @ 7096 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, DV] | 1918x802 @ 6226 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, HDR10] | 1918x802 @ 6149 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, SDR] | 1918x802 @ 5044 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, DV] | 1918x802 @ 4866 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, HDR10] | 1918x802 @ 4812 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, SDR] | 1918x802 @ 4013 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, DV] | 1918x802 @ 3525 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, HDR10] | 1918x802 @ 3465 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, SDR] | 1918x802 @ 2876 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, DV] | 1482x620 @ 2787 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, HDR10] | 1482x620 @ 2702 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, SDR] | 1482x620 @ 2237 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, DV] | 1186x496 @ 2031 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, HDR10] | 1186x496 @ 1983 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, SDR] | 1186x496 @ 1638 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, DV] | 862x360 @ 1399 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, HDR10] | 862x360 @ 1366 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, SDR] | 862x360 @ 1142 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, DV] | 860x360 @ 1112 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, HDR10] | 860x360 @ 1062 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, SDR] | 860x360 @ 861 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, DV] | 778x326 @ 802 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, HDR10] | 778x326 @ 752 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, SDR] | 778x326 @ 618 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, DV] | 704x294 @ 595 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, HDR10] | 704x294 @ 541 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, SDR] | 704x294 @ 446 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, DV] | 556x232 @ 415 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, HDR10] | 556x232 @ 366 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : ├─ VID | [H.265, SDR] | 556x232 @ 302 kb/s, 23.976 FPS
+2025-01-23 07:48:07 [I] Tracks : 90 Audio Tracks:
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AC3] | [ac3] | 5.1 | 384 kb/s | de
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [E-AC3] | [atmos] | 5.1 | 384 kb/s | de
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 160 kb/s | de
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 128 kb/s | de
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 64 kb/s | de
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AC3] | [ac3] | 5.1 | 384 kb/s | de | Descriptive
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [E-AC3] | [atmos] | 5.1 | 384 kb/s | de | Descriptive
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 160 kb/s | de | Descriptive
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 128 kb/s | de | Descriptive
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 64 kb/s | de | Descriptive
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [E-AC3] | [atmos, atmos] | 16/JOC | 768 kb/s | en | [Original]
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AC3] | [ac3] | 5.1 | 384 kb/s | en | [Original]
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 160 kb/s | en | [Original]
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 128 kb/s | en | [Original]
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 64 kb/s | en | [Original]
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [E-AC3] | [atmos, atmos] | 16/JOC | 768 kb/s | en | Descriptive [Original]
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AC3] | [ac3] | 5.1 | 384 kb/s | en | Descriptive [Original]
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 160 kb/s | en | Descriptive [Original]
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 128 kb/s | en | Descriptive [Original]
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 64 kb/s | en | Descriptive [Original]
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AC3] | [ac3] | 5.1 | 384 kb/s | es-419 | Latin American
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [E-AC3] | [atmos] | 5.1 | 384 kb/s | es-419 | Latin American
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 160 kb/s | es-419 | Latin American
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 128 kb/s | es-419 | Latin American
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 64 kb/s | es-419 | Latin American
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AC3] | [ac3] | 5.1 | 384 kb/s | es-419 | Latin American (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [E-AC3] | [atmos] | 5.1 | 384 kb/s | es-419 | Latin American (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 160 kb/s | es-419 | Latin American (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 128 kb/s | es-419 | Latin American (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 64 kb/s | es-419 | Latin American (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AC3] | [ac3] | 5.1 | 384 kb/s | es-ES | European
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [E-AC3] | [atmos] | 5.1 | 384 kb/s | es-ES | European
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 160 kb/s | es-ES | European
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 128 kb/s | es-ES | European
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 64 kb/s | es-ES | European
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AC3] | [ac3] | 5.1 | 384 kb/s | es-ES | European (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [E-AC3] | [atmos] | 5.1 | 384 kb/s | es-ES | European (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 160 kb/s | es-ES | European (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 128 kb/s | es-ES | European (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 64 kb/s | es-ES | European (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AC3] | [ac3] | 5.1 | 384 kb/s | fr-CA | Canadian
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [E-AC3] | [atmos] | 5.1 | 384 kb/s | fr-CA | Canadian
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 160 kb/s | fr-CA | Canadian
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 128 kb/s | fr-CA | Canadian
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 64 kb/s | fr-CA | Canadian
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AC3] | [ac3] | 5.1 | 384 kb/s | fr-CA | Canadian (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [E-AC3] | [atmos] | 5.1 | 384 kb/s | fr-CA | Canadian (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 160 kb/s | fr-CA | Canadian (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 128 kb/s | fr-CA | Canadian (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 64 kb/s | fr-CA | Canadian (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AC3] | [ac3] | 5.1 | 384 kb/s | fr-FR | European
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [E-AC3] | [atmos] | 5.1 | 384 kb/s | fr-FR | European
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 160 kb/s | fr-FR | European
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 128 kb/s | fr-FR | European
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 64 kb/s | fr-FR | European
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AC3] | [ac3] | 5.1 | 384 kb/s | fr-FR | European (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [E-AC3] | [atmos] | 5.1 | 384 kb/s | fr-FR | European (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 160 kb/s | fr-FR | European (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 128 kb/s | fr-FR | European (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 64 kb/s | fr-FR | European (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AC3] | [ac3] | 5.1 | 384 kb/s | it
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [E-AC3] | [atmos] | 5.1 | 384 kb/s | it
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 160 kb/s | it
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 128 kb/s | it
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 64 kb/s | it
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AC3] | [ac3] | 5.1 | 384 kb/s | it | Descriptive
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [E-AC3] | [atmos] | 5.1 | 384 kb/s | it | Descriptive
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 160 kb/s | it | Descriptive
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 128 kb/s | it | Descriptive
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 64 kb/s | it | Descriptive
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AC3] | [ac3] | 5.1 | 384 kb/s | ja
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [E-AC3] | [atmos] | 5.1 | 384 kb/s | ja
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 160 kb/s | ja
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 128 kb/s | ja
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 64 kb/s | ja
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AC3] | [ac3] | 5.1 | 384 kb/s | ja | Descriptive
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [E-AC3] | [atmos] | 5.1 | 384 kb/s | ja | Descriptive
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 160 kb/s | ja | Descriptive
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 128 kb/s | ja | Descriptive
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 64 kb/s | ja | Descriptive
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AC3] | [ac3] | 5.1 | 384 kb/s | pt-BR | Brazilian
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [E-AC3] | [atmos] | 5.1 | 384 kb/s | pt-BR | Brazilian
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 160 kb/s | pt-BR | Brazilian
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 128 kb/s | pt-BR | Brazilian
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 64 kb/s | pt-BR | Brazilian
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AC3] | [ac3] | 5.1 | 384 kb/s | pt-BR | Brazilian (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [E-AC3] | [atmos] | 5.1 | 384 kb/s | pt-BR | Brazilian (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 160 kb/s | pt-BR | Brazilian (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 128 kb/s | pt-BR | Brazilian (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : ├─ AUD | [AAC] | [stereo] | 2.0 | 64 kb/s | pt-BR | Brazilian (Descriptive)
+2025-01-23 07:48:07 [I] Tracks : 49 Text Tracks:
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | de | Forced
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | es-419 | Latin American (Forced)
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | es-ES | European (Forced)
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | fr-CA | Canadian (Forced)
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | fr-FR | European (Forced)
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | it | Forced
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | ja | Forced
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | pt-BR | Brazilian (Forced)
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | ar
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | bg
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | cmn-Hans | Simplified
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | cmn-Hant | Traditional
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | cs
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | da
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | de
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | el
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | en | [Original]
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | es-419 | Latin American
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | es-ES | European
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | et
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | fi
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | fr-CA | Canadian
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | fr-FR | European
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | he
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | hi
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | hu
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | id
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | it
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | ja
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | ko
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | lt
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | lv
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | ms
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | nl
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | no
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | pl
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | pt
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | pt-BR | Brazilian
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | ru
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | sk
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | sl
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | sv
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | ta
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | te
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | th
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | tr
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | uk
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | vi
+2025-01-23 07:48:07 [I] Tracks : ├─ SUB | [VTT] | yue-Hant | Traditional
+2025-01-23 07:48:07 [E] ATVP :  - There's no audio tracks that match the languages: 
+2025-01-23 07:48:07 [I] ATVP : Processed all titles!

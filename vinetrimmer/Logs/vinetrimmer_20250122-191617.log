@@ -1,0 +1,73 @@
+2025-01-22 19:16:17 [I] vt : vinetrimmer - Widevine DRM downloader and decrypter
+2025-01-22 19:16:17 [I] vt : [Root Config]     : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\vinetrimmer.yml
+2025-01-22 19:16:17 [I] vt : [Service Configs] : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\Services
+2025-01-22 19:16:17 [I] vt : [Cookies]         : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\Cookies
+2025-01-22 19:16:17 [I] vt : [CDM Devices]     : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\devices
+2025-01-22 19:16:17 [I] vt : [Cache]           : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\Cache
+2025-01-22 19:16:17 [I] vt : [Logs]            : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\Logs
+2025-01-22 19:16:17 [I] vt : [Temp Files]      : B:\decryption\PlayReady-Amazon-Tool-main\Temp
+2025-01-22 19:16:17 [I] vt : [Downloads]       : B:\decryption\PlayReady-Amazon-Tool-main\Downloads
+2025-01-22 19:16:17 [I] dl :  + 1 Local Vault
+2025-01-22 19:16:17 [I] dl :  + 0 Remote Vaults
+2025-01-22 19:16:17 [I] dl :  + Loaded Device: Hisense SmartTV HU50A6100UW (L3000)
+2025-01-22 19:16:17 [I] ATVP :  - Setting Video codec to H265 to get UHD
+2025-01-22 19:16:17 [D] urllib3.connectionpool : Starting new HTTPS connection (1): tv.apple.com:443
+2025-01-22 19:16:21 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET / HTTP/1.1" 200 None
+2025-01-22 19:16:22 [I] ATVP : Retrieving Titles
+2025-01-22 19:16:22 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET /api/uts/v3/shows/umc.cmc.amuoq00hqelfi98j0gvg641x?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 404 114
+2025-01-22 19:16:22 [D] urllib3.connectionpool : Starting new HTTPS connection (2): tv.apple.com:443
+2025-01-22 19:16:24 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET /api/uts/v3/movies/umc.cmc.amuoq00hqelfi98j0gvg641x?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 200 5443
+2025-01-22 19:16:24 [D] ATVP : {'backgroundVideo': {'assets': {'assetAdamId': '1527839707', 'fpsCertificateUrl': 'https://s.mzstatic.com/skdtool_2021_certbundle.bin', 'fpsKeyServerQueryParameters': {'adamId': '1527839707', 'isExternal': True, 'svcId': 'tvs.vds.4105'}, 'fpsKeyServerUrl': 'https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/wa/fpsRequest', 'fpsNonceServerUrl': 'https://play.itunes.apple.com/WebObjects/MZPlay.woa/wa/checkInNonceRequest', 'hlsUrl': 'https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1527839707&isExternal=true&brandId=tvs.sbd.4000&id=518002109&l=en-US&aec=UHD', 'programId': '518002109'}, 'duration': 124, 'id': 'umc.cmr.atvp.ex.48luujq1ut5twylqxzmqkjysk', 'images': {'contentImage': {'height': 2160, 'isP3': False, 'joeColor': 'b:rgb(243,196,104) p:rgb(30,0,0) s:rgb(85,29,1) t:rgb(72,39,20) q:rgb(117,62,22)', 'supportsLayeredImage': False, 'url': 'https://is1-ssl.mzstatic.com/image/thumb/FSNw30xBgoHB_doe-mCPKQ/{w}x{h}.{f}', 'width': 3840}}, 'mediaMetrics': {'MediaIdentifier': 'a=1527839707:p=518002109:s=tvs.vds.4105:cid=umc.cmc.30bkthhc9kciw6kkg8uejdpb8:rid=umc.cmr.atvp.ex.48luujq1ut5twylqxzmqkjysk:e=trailer', 'iTunesServiceMonitoringKey': True}, 'title': 'Wolfwalkers Trailer'}, 'commonSenseMedia': {'contentInfo': [{'label': 'Positive Messages', 'rating': 4}, {'label': 'Positive Role Models', 'rating': 4}, {'label': 'Violence & Scariness', 'rating': 3}, {'label': 'Sexy Stuff', 'rating': 0}, {'label': 'Language', 'rating': 1}, {'label': 'Consumerism', 'rating': 0}, {'label': 'Drinking, Drugs & Smoking', 'rating': 0}], 'oneLiner': 'Lush, lyrical Irish folktale has dark moments, peril.', 'recommendedAge': 8}, 'countriesOfOrigin': [{'countryCode': 'IE', 'displayName': 'Ireland'}, {'countryCode': 'LU', 'displayName': 'Luxembourg'}], 'description': '2021 Oscar® nominee: Best Animated Feature. A young hunter journeys to Ireland with her father to help wipe out the last wolf pack—but then she befriends a free-spirited girl from a mysterious tribe rumored to transform into wolves by night.', 'duration': 6120, 'genres': [{'id': 'umc.gnr.mov.animation', 'name': 'Animation', 'type': 'Genre', 'url': 'https://tv.apple.com/us/genre/animation/umc.gnr.mov.animation'}], 'id': 'umc.cmc.amuoq00hqelfi98j0gvg641x', 'images': {'contentImage': {'height': 3240, 'isP3': False, 'joeColor': 'b:rgb(90,86,70) p:rgb(217,236,107) s:rgb(224,205,105) t:rgb(192,206,99) q:rgb(197,181,98)', 'supportsLayeredImage': False, 'url': 'https://is1-ssl.mzstatic.com/image/thumb/vmt3qCuWTGR8QzUEKeAdHg/{w}x{h}ta.{f}', 'width': 4320}, 'contentImageTall': {'height': 3636, 'joeColor': 'b:rgb(154,181,64) p:rgb(20,21,15) s:rgb(23,31,18) t:rgb(47,53,25) q:rgb(49,61,27)', 'supportsLayeredImage': False, 'url': 'https://is1-ssl.mzstatic.com/image/thumb/q5v2gdVkgZqYOAbKY_xqmQ/{w}x{h}tc.{f}', 'width': 1680}, 'contentLogo': {'height': 942, 'isP3': False, 'joeColor': 'b:rgb(246,246,246) p:rgb(15,15,15) s:rgb(15,15,15) t:rgb(61,61,61) q:rgb(61,61,61)', 'supportsLayeredImage': False, 'url': 'https://is1-ssl.mzstatic.com/image/thumb/rmyvY-kSdOf-DZJ6hEij2A/{w}x{h}.{f}', 'width': 7987}, 'posterArt': {'height': 2160, 'isP3': False, 'joeColor': 'b:rgb(245,225,195) p:rgb(36,34,23) s:rgb(46,42,39) t:rgb(78,72,57) q:rgb(86,79,70)', 'supportsLayeredImage': True, 'url': 'https://is1-ssl.mzstatic.com/image/thumb/ev66eeePba6sgm8XKyvYBg/{w}x{h}.{f}', 'width': 3840}}, 'isAppleOriginal': True, 'originalSpokenLanguages': [{'displayName': 'English', 'locale': 'en'}], 'rating': {'displayName': 'PG', 'name': 'PG', 'reason': 'for sequences of violence and peril, scary images, some thematic elements and brief language', 'system': 'mpaa', 'systemType': 'movies', 'value': 200}, 'releaseDate': 1605052800000, 'rolesSummary': {'cast': ['Honor Kneafsey', 'Eva Whittaker', 'Sean Bean'], 'directors': ['Tomm Moore', 'Ross Stewart']}, 'seoDescription': 'Watch the Oscar®-nominated animated film Wolfwalkers, directed by Tomm Moore and Ross Stewart starring Honor Kneafsey, Eva Whittaker, and Sean Bean.', 'seoTitle': 'Watch Wolfwalkers - Movie - Apple TV+', 'title': 'Wolfwalkers', 'type': 'Movie', 'url': 'https://tv.apple.com/us/movie/wolfwalkers/umc.cmc.amuoq00hqelfi98j0gvg641x'}
+2025-01-22 19:16:24 [I] Titles : Title: Wolfwalkers
+2025-01-22 19:16:24 [I] ATVP : Getting tracks for Wolfwalkers [umc.cmc.amuoq00hqelfi98j0gvg641x]
+2025-01-22 19:16:25 [D] urllib3.connectionpool : https://tv.apple.com:443 "GET /api/uts/v2/view/product/umc.cmc.amuoq00hqelfi98j0gvg641x/personalized?utsk=6e3013c6d6fae3c2%3A%3A%3A%3A%3A%3Ae08f7cfb96228836&caller=web&sf=143441&v=46&pfm=appletv&mfr=Apple&locale=en-US&l=en&brandId=tvs.sbd.4000&count=100&skip=0&svcId=tvs.vds.4105 HTTP/1.1" 200 2271
+2025-01-22 19:16:25 [D] ATVP : {'svcId': 'tvs.vds.4105', 'isExternal': True, 'adamId': '1533344394'}
+2025-01-22 19:16:25 [D] ATVP : https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1533344394&isExternal=true&brandId=tvs.sbd.4000&id=983739320&l=en-US&aec=UHD
+2025-01-22 19:16:25 [D] urllib3.connectionpool : Starting new HTTPS connection (1): play-edge.itunes.apple.com:443
+2025-01-22 19:16:26 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1533344394&isExternal=true&brandId=tvs.sbd.4000&id=983739320&l=en-US&aec=UHD HTTP/1.1" 200 31006
+2025-01-22 19:16:26 [D] charset_normalizer : Encoding detection: utf_8 is most likely the one.
+2025-01-22 19:16:26 [I] ATVP : > Selected Tracks:
+2025-01-22 19:16:26 [I] Tracks : 1 Video Track:
+2025-01-22 19:16:26 [I] Tracks : ├─ VID | [H.265, HDR10] | 3840x2076 @ 24130 kb/s, 23.976 FPS
+2025-01-22 19:16:26 [I] Tracks : 1 Audio Track:
+2025-01-22 19:16:26 [I] Tracks : ├─ AUD | [E-AC3] | [atmos, atmos] | 16/JOC | 768 kb/s | en | [Original]
+2025-01-22 19:16:26 [I] Tracks : 1 Text Track:
+2025-01-22 19:16:26 [I] Tracks : ├─ SUB | [VTT] | en | [Original]
+2025-01-22 19:16:26 [I] ATVP : Downloading: ├─ VID | [H.265, HDR10] | 3840x2076 @ 24130 kb/s, 23.976 FPS
+2025-01-22 19:16:26 [D] urllib3.connectionpool : Starting new HTTPS connection (1): play-edge.itunes.apple.com:443
+2025-01-22 19:16:28 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&g=798&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1533344394&a=1533344394+1539522177+1539522143+1539522195+1539522346+1539522345+1540605092+1539522113+1539522347&p=983739320+514844393+513970540+514855707+514860732+514001379+514861202+514569615+514970669&st=4542367819+2094594776+2087298575+2094709994+2094769315+2087538993+2094777027+2092755809+2095753844 HTTP/1.1" 200 15495
+2025-01-22 19:16:28 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 19:16:28 [I] ATVP :  + PSSH: vgEAAAEAAQC0ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADMALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAFMAPgA8AEsASQBEACAAQQBMAEcASQBEAD0AIgBBAEUAUwBDAEIAQwAiACAAVgBBAEwAVQBFAD0AIgBBAEEAQQBBAEEASwBJADYAdQBLAHQAagBOAFMAQQBnAEkAQwBBAGcASQBBAD0APQAiAD4APAAvAEsASQBEAD4APAAvAEsASQBEAFMAPgA8AC8AUABSAE8AVABFAEMAVABJAE4ARgBPAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=
+2025-01-22 19:16:28 [I] ATVP :  + KID: 000000003aa2abb86335202020202020
+2025-01-22 19:16:28 [D] urllib3.connectionpool : Starting new HTTPS connection (1): play-edge.itunes.apple.com:443
+2025-01-22 19:16:29 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&g=798&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1533344394&a=1533344394+1539522177+1539522143+1539522195+1539522346+1539522345+1540605092+1539522113+1539522347&p=983739320+514844393+513970540+514855707+514860732+514001379+514861202+514569615+514970669&st=4542367819+2094594776+2087298575+2094709994+2094769315+2087538993+2094777027+2092755809+2095753844 HTTP/1.1" 200 15495
+2025-01-22 19:16:29 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 19:16:29 [D] asyncio : Using proactor: IocpProactor
+2025-01-22 19:39:33 [I] ATVP :  + Downloaded
+2025-01-22 19:39:33 [I] ATVP : Decrypting...
+2025-01-22 19:39:33 [I] ATVP :  + KEY: 3ab484085922ac95aff064083343210b (From Local LOCAL Key Vault)
+2025-01-22 19:44:13 [I] ATVP :  + Decrypted
+2025-01-22 19:44:13 [I] ATVP : Downloading: ├─ AUD | [E-AC3] | [atmos, atmos] | 16/JOC | 768 kb/s | en | [Original]
+2025-01-22 19:44:13 [D] urllib3.connectionpool : Resetting dropped connection: play-edge.itunes.apple.com
+2025-01-22 19:44:13 [D] urllib3.connectionpool : Starting new HTTPS connection (2): play-edge.itunes.apple.com:443
+2025-01-22 19:44:15 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&g=2768&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1533344394&a=1533344394+1539522177+1539522143+1539522195+1539522346+1539522345+1540605092+1539522113+1539522347&p=983739320+514844393+513970540+514855707+514860732+514001379+514861202+514569615+514970669&st=4542361245+2094594906+2087298649+2094710222+2094770050+2087539807+2094777047+2092755862+2095754269 HTTP/1.1" 200 4869
+2025-01-22 19:44:15 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 19:44:15 [I] ATVP :  + PSSH: vgEAAAEAAQC0ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADMALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAFMAPgA8AEsASQBEACAAQQBMAEcASQBEAD0AIgBBAEUAUwBDAEIAQwAiACAAVgBBAEwAVQBFAD0AIgBBAEEAQQBBAEEASwBJADYAdQBLAHQAagBOAGkAQQBnAEkAQwBBAGcASQBBAD0APQAiAD4APAAvAEsASQBEAD4APAAvAEsASQBEAFMAPgA8AC8AUABSAE8AVABFAEMAVABJAE4ARgBPAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=
+2025-01-22 19:44:15 [I] ATVP :  + KID: 000000003aa2abb86336202020202020
+2025-01-22 19:44:15 [D] urllib3.connectionpool : Starting new HTTPS connection (1): play-edge.itunes.apple.com:443
+2025-01-22 19:44:16 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&g=2768&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1533344394&a=1533344394+1539522177+1539522143+1539522195+1539522346+1539522345+1540605092+1539522113+1539522347&p=983739320+514844393+513970540+514855707+514860732+514001379+514861202+514569615+514970669&st=4542361245+2094594906+2087298649+2094710222+2094770050+2087539807+2094777047+2092755862+2095754269 HTTP/1.1" 200 4869
+2025-01-22 19:44:16 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 19:44:16 [D] asyncio : Using proactor: IocpProactor
+2025-01-22 19:45:38 [I] ATVP :  + Downloaded
+2025-01-22 19:45:38 [I] ATVP : Decrypting...
+2025-01-22 19:45:38 [I] ATVP :  + KEY: b40b87b670a97ee86d23160e05760ec6 (From Local LOCAL Key Vault)
+2025-01-22 19:45:44 [I] ATVP :  + Decrypted
+2025-01-22 19:45:44 [I] ATVP : Downloading: ├─ SUB | [VTT] | en | [Original]
+2025-01-22 19:45:44 [D] urllib3.connectionpool : Starting new HTTPS connection (1): play-edge.itunes.apple.com:443
+2025-01-22 19:45:47 [D] urllib3.connectionpool : https://play-edge.itunes.apple.com:443 "GET /WebObjects/MZPlayLocal.woa/hls/subscription/stream/playlist.m3u8?cc=US&cdn=vod-ak-aoc.tv.apple.com&mainAssetAdamId=1533344394&a=1533344394+1539522177+1539522143+1539522195+1539522346+1539522345+1540605092+1539522113+1539522347&p=983739320+514844393+513970540+514855707+514860732+514001379+514861202+514569615+514970669&st=4542345794+2094595294+2087298784+2094710290+2094770599+2087540043+2094777475+2092756027+2095754355 HTTP/1.1" 200 870
+2025-01-22 19:45:47 [D] charset_normalizer : Encoding detection: ascii is most likely the one.
+2025-01-22 19:45:47 [D] asyncio : Using proactor: IocpProactor
+2025-01-22 19:45:56 [I] ATVP :  + Downloaded
+2025-01-22 19:45:56 [I] ATVP : Muxing tracks into an MKV container
+2025-01-22 19:51:47 [I] ATVP :  + Muxed
+2025-01-22 19:51:48 [I] ATVP : Processed all titles!

@@ -1,0 +1,29 @@
+2025-01-22 07:12:07 [I] vt : vinetrimmer - Widevine DRM downloader and decrypter
+2025-01-22 07:12:07 [I] vt : [Root Config]     : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\vinetrimmer.yml
+2025-01-22 07:12:07 [I] vt : [Service Configs] : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\Services
+2025-01-22 07:12:07 [I] vt : [Cookies]         : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\Cookies
+2025-01-22 07:12:07 [I] vt : [CDM Devices]     : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\devices
+2025-01-22 07:12:07 [I] vt : [Cache]           : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\Cache
+2025-01-22 07:12:07 [I] vt : [Logs]            : B:\decryption\PlayReady-Amazon-Tool-main\vinetrimmer\Logs
+2025-01-22 07:12:07 [I] vt : [Temp Files]      : B:\decryption\PlayReady-Amazon-Tool-main\Temp
+2025-01-22 07:12:07 [I] vt : [Downloads]       : B:\decryption\PlayReady-Amazon-Tool-main\Downloads
+2025-01-22 07:12:07 [I] dl :  + 1 Local Vault
+2025-01-22 07:12:07 [I] dl :  + 0 Remote Vaults
+2025-01-22 07:12:07 [I] dl :  + Loaded Device: Hisense SmartTV HU50A6100UW (L3000)
+2025-01-22 07:12:07 [I] ATVP :  - Setting Video codec to H265 to get UHD
+2025-01-22 07:12:07 [D] urllib3.connectionpool : Starting new HTTPS connection (1): tv.apple.com:443
+2025-01-22 07:12:07 [D] urllib3.util.retry : Incremented Retry for (url='/'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+2025-01-22 07:12:07 [W] urllib3.connectionpool : Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000000059C6A70>: Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions'))': /
+2025-01-22 07:12:07 [D] urllib3.connectionpool : Starting new HTTPS connection (2): tv.apple.com:443
+2025-01-22 07:12:07 [D] urllib3.util.retry : Incremented Retry for (url='/'): Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-22 07:12:09 [W] urllib3.connectionpool : Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000000059C6F80>: Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions'))': /
+2025-01-22 07:12:09 [D] urllib3.connectionpool : Starting new HTTPS connection (3): tv.apple.com:443
+2025-01-22 07:12:09 [D] urllib3.util.retry : Incremented Retry for (url='/'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-01-22 07:12:13 [W] urllib3.connectionpool : Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000000059C7160>: Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions'))': /
+2025-01-22 07:12:13 [D] urllib3.connectionpool : Starting new HTTPS connection (4): tv.apple.com:443
+2025-01-22 07:12:13 [D] urllib3.util.retry : Incremented Retry for (url='/'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2025-01-22 07:12:21 [W] urllib3.connectionpool : Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000000059C72B0>: Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions'))': /
+2025-01-22 07:12:21 [D] urllib3.connectionpool : Starting new HTTPS connection (5): tv.apple.com:443
+2025-01-22 07:12:21 [D] urllib3.util.retry : Incremented Retry for (url='/'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-01-22 07:12:37 [W] urllib3.connectionpool : Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000000059C7400>: Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions'))': /
+2025-01-22 07:12:37 [D] urllib3.connectionpool : Starting new HTTPS connection (6): tv.apple.com:443

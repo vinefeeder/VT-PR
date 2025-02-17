@@ -1,0 +1,44 @@
+decrypter: 'packager'
+tag: 'JEFF'
+tag_sd: 'JEFF'
+
+aria2c:
+  file_allocation: 'prealloc'
+  
+
+cdm:
+  default: 'samsung_electronics_co_ltd_sm-t710_eur_open_sm-t710_sl2000'
+  Amazon: 'samsung_electronics_co_ltd_sm-t710_eur_open_sm-t710_sl2000'
+  AppleTVPlus: 'hisense_smarttv_hu50a6100uw_sl3000'
+
+cdm_api:
+  - name: 'amazon'
+    host: 'http://31.207.45.191:62318'
+    username: '4ppl'
+    key: '1256521d4f83411192b923b9f71dd26'
+    device: 'j4'
+    type: 'PLAYREADY'
+    system_id: 12345
+    security_level: 1
+
+credentials:
+  iTunes: ''
+
+directories:
+  temp: ''
+
+headers:
+  User-Agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0'
+
+
+output_template:
+  movies: '{title}.{year}.{quality}.{source}.WEB-DL.{audio}.{video}-{tag}'
+  series: '{title}.{season_episode}.{episode_name}.{quality}.{source}.WEB-DL.{audio}.{video}-{tag}'
+  use_last_audio: false
+
+profiles:
+  default: 'default'
+  Viki: false
+
+
+nordvpn: {}
